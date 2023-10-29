@@ -1,21 +1,15 @@
+import profile from "./images/profile.svg";
+import email from "./images/email.svg";
 import "./App.css";
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { AboutMe } from "./Components/AboutMe.js";
 import { Projects } from "./Components/Projects.js";
-import { DropDownMenu } from "./DropDownMenu.js";
+import { DropdownItem } from "./DropdownItem.js";
 
 function App() {
-  const [activeTab, setActiveTab] = useState("AboutMe");
+  const [activeTab, setActiveTab] = useState("");
   const [homeActive, setHomeActive] = useState(true);
   const [projActive, setProjActive] = useState(false);
-  const [dropDownActive, setDropDownActive] = useState(false);
-
-  const handleHover = () => {
-    setDropDownActive(true);
-  };
-  const handleNoHover = () => {
-    setDropDownActive(false);
-  };
 
   const openTab = (tabName) => {
     if (tabName == "AboutMe") {
@@ -29,33 +23,94 @@ function App() {
       setActiveTab("Projects");
     }
   };
+  const [open, setOpen] = useState(false);
+  const [projOpen, setProjOpen] = useState(false);
+
+  let menuRef = useRef();
+
+  useEffect(() => {
+    let handler = (e) => {
+      if (!menuRef.current.contains(e.target)) {
+        setOpen(false);
+        console.log(menuRef.current);
+      }
+    };
+
+    document.addEventListener("mousedown", handler);
+
+    return () => {
+      document.removeEventListener("mousedown", handler);
+    };
+  });
+
   return (
     <div className="App">
       <link
         href="https://fonts.googleapis.com/icon?family=Material+Icons"
         rel="stylesheet"
       ></link>
-      <nav className="TabNav">
-        <img src={"./images/newLogoVariant.sv"} />
-
-        <div className="tabButtons">
-          <button
-            className={`tablinks ${activeTab === "AboutMe" ? "active" : ""}`}
-            onClick={() => openTab("AboutMe")}
-            onMouseEnter={handleHover}
-            onMouseLeave={handleNoHover}
-          >
-            <span class="material-icons">perm_identity</span> About Me
-          </button>
-          <button
-            className={`tablinks ${activeTab === "Projects" ? "active" : ""}`}
-            onClick={() => openTab("Projects")}
-          >
-            <span class="material-icons">assignment</span> My projects
-          </button>
+      <div className="menu-container" ref={menuRef}>
+        <div className="menu-trigger">
+          <p>Logo</p>
+          <div className="menu-buttons">
+            <button
+              className={`tablinks ${activeTab === "AboutMe" ? "active" : ""}`}
+              onMouseEnter={() => {
+                setOpen(true);
+              }}
+              onMouseLeave={() => {
+                setOpen(false);
+              }}
+              onClick={() => openTab("AboutMe")}
+            >
+              About Me
+            </button>
+            <button
+              className={`tablinks ${activeTab === "Projects" ? "active" : ""}`}
+              onMouseEnter={() => {
+                setProjOpen(true);
+              }}
+              onMouseLeave={() => {
+                setProjOpen(false);
+              }}
+              onClick={() => openTab("Projects")}
+            >
+              My Projects
+            </button>
+          </div>
         </div>
-      </nav>
-      <div className="navDetails">{dropDownActive && <DropDownMenu />}</div>
+
+        <div
+          id="meMenu"
+          className={`dropdown-menu ${open ? "active" : "inactive"}`}
+          onMouseEnter={() => {
+            setOpen(true);
+          }}
+          onMouseLeave={() => {
+            setOpen(false);
+          }}
+        >
+          <ul>
+            <DropdownItem img={profile} text={"About Me"} />
+            <DropdownItem img={email} text={"Contact Me"} />
+          </ul>
+        </div>
+        <div
+          id="projMenu"
+          className={`dropdown-menu ${projOpen ? "active" : "inactive"}`}
+          onMouseEnter={() => {
+            setProjOpen(true);
+          }}
+          onMouseLeave={() => {
+            setProjOpen(false);
+          }}
+        >
+          <ul>
+            <DropdownItem text={"Project1"} />
+            <DropdownItem text={"Project2"} />
+          </ul>
+        </div>
+      </div>
 
       <header className="App-header">
         <h1>

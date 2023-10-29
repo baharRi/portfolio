@@ -6,7 +6,7 @@ h1 span {
   color: #53847c;
 }
 
-.TabNav {
+.menu-trigger {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -15,11 +15,11 @@ h1 span {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   align-items: center;
 }
-.tabButtons {
+.menu-buttons {
   display: flex;
 }
 
-.TabNav button {
+.menu-trigger button {
   text-transform: uppercase;
   display: flex;
   flex-direction: row;
@@ -31,12 +31,13 @@ h1 span {
   background-color: inherit;
   font-weight: 700;
   font-size: 1em;
+  overflow: hidden;
 }
 
-.TabNav button:hover {
+.menu-trigger button:hover {
   background-color: #53847c;
 }
-.TabNav button.active {
+.menu-trigger button.active {
   background-color: #191a1f;
   color: #dcdeda;
 }
@@ -49,4 +50,78 @@ h1 span {
 .navDetails {
   display: inline;
   float: right;
+}
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.dropdown-menu {
+  position: absolute;
+  right: 0px;
+  background-color: #191a1f;
+  border-radius: var(--border-radius);
+  padding: 10px 20px;
+  width: 200px;
+}
+.dropdown-menu#meMenu {
+  right: 100px;
+  position: absolute;
+  background-color: #191a1f;
+  border-radius: var(--border-radius);
+  padding: 10px 20px;
+  width: 200px;
+}
+.dropdown-menu a {
+  color: #dcdeda;
+}
+
+.dropdown-menu.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  transition: var(--speed) ease;
+}
+
+.dropdown-menu.inactive {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: var(--speed) ease;
+}
+
+.dropdown-menu ul li {
+  padding: 10px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.dropdown-menu ul li:hover {
+  background-color: #53847c;
+  cursor: pointer;
+}
+
+.dropdown-menu ul li:hover img {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.dropdownItem {
+  display: flex;
+  margin: 10px auto;
+}
+
+.dropdownItem img {
+  max-width: 20px;
+  margin-right: 10px;
+  opacity: 0.5;
+  transition: var(--speed);
+}
+
+.dropdownItem a {
+  max-width: 100px;
+  margin-left: 10px;
+  transition: var(--speed);
 }
