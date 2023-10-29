@@ -1,11 +1,11 @@
 import "./App.css";
 import React, { useState } from "react";
-import { Homepage } from "./Components/Homepage.js";
+import { AboutMe } from "./Components/AboutMe.js";
 import { Projects } from "./Components/Projects.js";
 import { DropDownMenu } from "./DropDownMenu.js";
 
 function App() {
-  const [activeTab, setActiveTab] = useState("Homepage");
+  const [activeTab, setActiveTab] = useState("AboutMe");
   const [homeActive, setHomeActive] = useState(true);
   const [projActive, setProjActive] = useState(false);
   const [dropDownActive, setDropDownActive] = useState(false);
@@ -18,10 +18,10 @@ function App() {
   };
 
   const openTab = (tabName) => {
-    if (tabName == "Homepage") {
+    if (tabName == "AboutMe") {
       setHomeActive(true);
       setProjActive(false);
-      setActiveTab("Homepage");
+      setActiveTab("AboutMe");
     }
     if (tabName == "Projects") {
       setProjActive(true);
@@ -40,12 +40,12 @@ function App() {
 
         <div className="tabButtons">
           <button
-            className={`tablinks ${activeTab === "Homepage" ? "active" : ""}`}
-            onClick={() => openTab("Homepage")}
+            className={`tablinks ${activeTab === "AboutMe" ? "active" : ""}`}
+            onClick={() => openTab("AboutMe")}
             onMouseEnter={handleHover}
             onMouseLeave={handleNoHover}
           >
-            <span class="material-icons">dashboard</span> Homepage
+            <span class="material-icons">perm_identity</span> About Me
           </button>
           <button
             className={`tablinks ${activeTab === "Projects" ? "active" : ""}`}
@@ -63,7 +63,7 @@ function App() {
           <span className="type">Bahar</span>&nbsp;
         </h1>
       </header>
-      <div>{homeActive && <Homepage />}</div>
+      <div>{homeActive && <AboutMe />}</div>
       <div>{projActive && <Projects />}</div>
     </div>
   );
