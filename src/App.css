@@ -6,31 +6,46 @@ h1 span {
   color: #53847c;
 }
 
-.App-header {
-}
-
-.App-link {
-  color: #61dafb;
-}
 .TabNav {
   display: flex;
   justify-content: space-between;
+  width: 100%;
+  background-color: inherit;
+  border-bottom: #191a1f solid 1px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  align-items: center;
+}
+.tabButtons {
+  display: flex;
 }
 
 .TabNav button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   cursor: pointer;
-  padding: 14px 16px;
+  padding: 1.5em 2em;
   transition: 0.3s;
+  border: none;
+  background-color: inherit;
+  font-weight: 700;
+  font-size: 1em;
 }
+
 .TabNav button:hover {
-  background-color: #ddd;
+  background-color: #53847c;
 }
 .TabNav button.active {
-  background-color: #ccc;
+  background-color: #191a1f;
+  color: #dcdeda;
 }
 .tabcontent {
   display: none;
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
+}
+.navDetails {
+  display: inline;
+  float: right;
 }

@@ -2,11 +2,20 @@ import "./App.css";
 import React, { useState } from "react";
 import { Homepage } from "./Components/Homepage.js";
 import { Projects } from "./Components/Projects.js";
+import { DropDownMenu } from "./DropDownMenu.js";
 
 function App() {
   const [activeTab, setActiveTab] = useState("Homepage");
   const [homeActive, setHomeActive] = useState(true);
   const [projActive, setProjActive] = useState(false);
+  const [dropDownActive, setDropDownActive] = useState(false);
+
+  const handleHover = () => {
+    setDropDownActive(true);
+  };
+  const handleNoHover = () => {
+    setDropDownActive(false);
+  };
 
   const openTab = (tabName) => {
     if (tabName == "Homepage") {
@@ -22,24 +31,32 @@ function App() {
   };
   return (
     <div className="App">
+      <link
+        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet"
+      ></link>
       <nav className="TabNav">
-        <img src="images/newLogoVariant.svg" alt="Logo" />
+        <img src={"./images/newLogoVariant.sv"} />
 
         <div className="tabButtons">
           <button
             className={`tablinks ${activeTab === "Homepage" ? "active" : ""}`}
             onClick={() => openTab("Homepage")}
+            onMouseEnter={handleHover}
+            onMouseLeave={handleNoHover}
           >
-            Homepage
+            <span class="material-icons">dashboard</span> Homepage
           </button>
           <button
             className={`tablinks ${activeTab === "Projects" ? "active" : ""}`}
             onClick={() => openTab("Projects")}
           >
-            My projects
+            <span class="material-icons">assignment</span> My projects
           </button>
         </div>
       </nav>
+      <div className="navDetails">{dropDownActive && <DropDownMenu />}</div>
+
       <header className="App-header">
         <h1>
           Hello. I'm <br />
