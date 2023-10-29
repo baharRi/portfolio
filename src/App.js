@@ -1,71 +1,67 @@
 import "./App.css";
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { AboutMe } from "./Components/AboutMe.js";
 import { Projects } from "./Components/Projects.js";
 import { DropDownMenu } from "./DropDownMenu.js";
 
 function App() {
-  const [activeTab, setActiveTab] = useState("AboutMe");
-  const [homeActive, setHomeActive] = useState(true);
-  const [projActive, setProjActive] = useState(false);
-  const [dropDownActive, setDropDownActive] = useState(false);
+  const [open, setOpen] = useState(false);
 
-  const handleHover = () => {
-    setDropDownActive(true);
-  };
-  const handleNoHover = () => {
-    setDropDownActive(false);
-  };
+  let menuRef = useRef();
 
-  const openTab = (tabName) => {
-    if (tabName == "AboutMe") {
-      setHomeActive(true);
-      setProjActive(false);
-      setActiveTab("AboutMe");
-    }
-    if (tabName == "Projects") {
-      setProjActive(true);
-      setHomeActive(false);
-      setActiveTab("Projects");
-    }
-  };
+  useEffect(() => {
+    let handler = (e) => {
+      if (!menuRef.current.contains(e.target)) {
+        setOpen(false);
+        console.log(menuRef.current);
+      }
+    };
+
+    document.addEventListener("mousedown", handler);
+
+    return () => {
+      document.removeEventListener("mousedown", handler);
+    };
+  });
+
   return (
     <div className="App">
-      <link
-        href="https://fonts.googleapis.com/icon?family=Material+Icons"
-        rel="stylesheet"
-      ></link>
-      <nav className="TabNav">
-        <img src={"./images/newLogoVariant.sv"} />
-
-        <div className="tabButtons">
-          <button
-            className={`tablinks ${activeTab === "AboutMe" ? "active" : ""}`}
-            onClick={() => openTab("AboutMe")}
-            onMouseEnter={handleHover}
-            onMouseLeave={handleNoHover}
-          >
-            <span class="material-icons">perm_identity</span> About Me
-          </button>
-          <button
-            className={`tablinks ${activeTab === "Projects" ? "active" : ""}`}
-            onClick={() => openTab("Projects")}
-          >
-            <span class="material-icons">assignment</span> My projects
-          </button>
+      <div className="menu-container" ref={menuRef}>
+        <div
+          className="menu-trigger"
+          onClick={() => {
+            setOpen(!open);
+          }}
+        >
+          <p>button</p>
         </div>
-      </nav>
-      <div className="navDetails">{dropDownActive && <DropDownMenu />}</div>
 
-      <header className="App-header">
-        <h1>
-          Hello. I'm <br />
-          <span className="type">Bahar</span>&nbsp;
-        </h1>
-      </header>
-      <div>{homeActive && <AboutMe />}</div>
-      <div>{projActive && <Projects />}</div>
+        <div className={`dropdown-menu ${open ? "active" : "inactive"}`}>
+          <h3>
+            The Kiet
+            <br />
+            <span>Website Designer</span>
+          </h3>
+          <ul>
+            <DropdownItem text={"My Profile"} />
+            <DropdownItem text={"Edit Profile"} />
+            <DropdownItem text={"Inbox"} />
+            <DropdownItem text={"Settings"} />
+            <DropdownItem text={"Helps"} />
+            <DropdownItem text={"Logout"} />
+          </ul>
+        </div>
+      </div>
     </div>
+  );
+}
+
+function DropdownItem(props) {
+  return (
+    <li className="dropdownItem">
+      <img src={props.img}></img>
+      <a> {props.text} </a>
+    </li>
   );
 }
 
