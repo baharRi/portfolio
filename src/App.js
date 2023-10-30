@@ -1,26 +1,47 @@
 import profile from "./images/profile.svg";
 import email from "./images/email.svg";
+import logo from "./images/newLogoVariant.svg";
 import "./App.css";
 import React, { useState, useEffect, useRef } from "react";
 import { AboutMe } from "./Components/AboutMe.js";
 import { Projects } from "./Components/Projects.js";
+import { IntroPage } from "./Components/IntroPage.js";
+import { TypingText } from "./TypingText.js";
 import { DropdownItem } from "./DropdownItem.js";
 
 function App() {
   const [activeTab, setActiveTab] = useState("");
-  const [homeActive, setHomeActive] = useState(true);
+  const [homeActive, setHomeActive] = useState(false);
   const [projActive, setProjActive] = useState(false);
+  const [introActive, setIntroActive] = useState(true);
+
+  document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+    anchor.addEventListener("click", function (e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute("href")).scrollIntoView({
+        behavior: "smooth",
+      });
+    });
+  });
 
   const openTab = (tabName) => {
     if (tabName == "AboutMe") {
       setHomeActive(true);
+      setIntroActive(false);
       setProjActive(false);
       setActiveTab("AboutMe");
     }
     if (tabName == "Projects") {
       setProjActive(true);
       setHomeActive(false);
+      setIntroActive(false);
       setActiveTab("Projects");
+    }
+    if (tabName == "Intro") {
+      setProjActive(false);
+      setHomeActive(false);
+      setIntroActive(true);
+      setActiveTab("Intro");
     }
   };
   const [open, setOpen] = useState(false);
@@ -51,7 +72,9 @@ function App() {
       ></link>
       <div className="menu-container" ref={menuRef}>
         <div className="menu-trigger">
-          <p>Logo</p>
+          <a href="/" onClick={() => openTab("Intro")}>
+            <img className="logo" src={logo}></img>
+          </a>
           <div className="menu-buttons">
             <button
               className={`tablinks ${activeTab === "AboutMe" ? "active" : ""}`}
@@ -115,11 +138,17 @@ function App() {
       <header className="App-header">
         <h1>
           Hello. I'm <br />
-          <span className="type">Bahar</span>&nbsp;
+          <TypingText />
         </h1>
+        <button className="avgButton">See my projects</button>
       </header>
-      <div>{homeActive && <AboutMe />}</div>
-      <div>{projActive && <Projects />}</div>
+      <section className="App-tab">
+        <div>
+          {introActive && <IntroPage />}
+          {homeActive && <AboutMe />}
+          {projActive && <Projects />}
+        </div>
+      </section>
     </div>
   );
 }

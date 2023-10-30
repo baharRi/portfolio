@@ -1,0 +1,8 @@
+html {
+  width: 100%;
+}
+.intro-heading {
+  text-align: center;
+  font-size: 12vh;
+  font-family: "Kanit", sans-serif;
+}
