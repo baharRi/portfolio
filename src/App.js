@@ -25,19 +25,19 @@ function App() {
   });
 
   const openTab = (tabName) => {
-    if (tabName == "AboutMe") {
+    if (tabName === "AboutMe") {
       setHomeActive(true);
       setIntroActive(false);
       setProjActive(false);
       setActiveTab("AboutMe");
     }
-    if (tabName == "Projects") {
+    if (tabName === "Projects") {
       setProjActive(true);
       setHomeActive(false);
       setIntroActive(false);
       setActiveTab("Projects");
     }
-    if (tabName == "Intro") {
+    if (tabName === "Intro") {
       setProjActive(false);
       setHomeActive(false);
       setIntroActive(true);
@@ -114,7 +114,7 @@ function App() {
           }}
         >
           <ul>
-            <DropdownItem img={profile} text={"About Me"} />
+            <DropdownItem img={profile} text={"About Me "} />
             <DropdownItem img={email} text={"Contact Me"} />
           </ul>
         </div>
