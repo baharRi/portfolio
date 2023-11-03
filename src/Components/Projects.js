@@ -1,3 +1,7 @@
 export function Projects() {
-  return <h2>My Projects</h2>;
+  return (
+    <section className="page-content">
+      <h2>My Projects</h2>
+    </section>
+  );
 }

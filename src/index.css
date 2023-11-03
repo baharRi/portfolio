@@ -16,13 +16,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-h1,
+h1 {
+  font-family: "Arvo", serif;
+  text-transform: uppercase;
+  font-size: 8vh;
+}
+
 h2 {
   font-family: "Arvo", serif;
   text-transform: uppercase;
-}
-h1 {
-  font-size: 8vh;
+  text-align: center;
+  font-size: 6vh;
+  color: #53847c;
 }
 h1 span {
   position: relative;

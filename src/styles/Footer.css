@@ -1,0 +1,30 @@
+.footer-heading {
+  border-top: #191a1f double 10px;
+}
+footer ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  font-family: "Arvo", serif;
+  margin: 0px 5em 0px 0px;
+}
+.contactLink {
+  display: inline-block;
+  margin: 20px 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #53847c;
+  font-size: x-large;
+}
+.contactLink:hover {
+  color: #191a1f;
+  transition-duration: 0.3s;
+}
+.contactItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contactItem p {
+  text-transform: uppercase;
+}

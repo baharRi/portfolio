@@ -1,8 +1,74 @@
-html {
-  width: 100%;
+.intro {
+  overflow: hidden;
+  position: relative;
+  width: 100vw;
 }
-.intro-heading {
+.introImg {
+  opacity: 0.6;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+.App-header {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  padding: 1em;
+  border-bottom: #191a1f double 10px;
+  align-items: center;
+  justify-content: space-around;
+}
+.headBtn {
+  z-index: 1;
+  border-radius: 50px;
+  background-color: transparent;
+  box-shadow: 15px 15px 30px rgb(34, 32, 32), -15px -15px 30px #ffffff;
+  cursor: pointer;
+  font-size: 14px;
+  transition-property: background-color, border-color, color, box-shadow, filter;
+  transition-duration: 0.3s;
+  border: none;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 700;
   text-align: center;
-  font-size: 12vh;
-  font-family: "Kanit", sans-serif;
+  padding: 16px 14px 18px;
+  color: #191a1f;
+  height: 48px;
+}
+.headBtn a {
+  color: #191a1f;
+  transition-duration: 0.3s;
+}
+
+.headBtn:hover {
+  color: #dcdeda;
+  background-color: #191a1f;
+}
+.headBtn:hover a {
+  color: #dcdeda;
+}
+
+.App-tab {
+  display: flex;
+}
+h1 span {
+  position: relative;
+  color: #dcdeda;
+  text-shadow: #191a1f 1px 1px 12px;
+}
+h1 span::before {
+  border-radius: 4px;
+  content: " ";
+  right: -20px;
+  top: 45%;
+  position: absolute;
+  height: 80px;
+  width: 6px;
+  background: #dcdeda;
+  transform: translateY(-45%);
+  animation: blink 0.7s infinite;
+  box-shadow: #191a1f 1px 1px 12px;
 }
