@@ -1,0 +1,162 @@
+/*.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*/
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #fafafa;
+  color: #111;
+  line-height: 1.6;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+  border-bottom: 2px solid #111;
+}
+
+.logo {
+  height: 60px;
+}
+
+.header nav a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  font-weight: 600;
+  color: #111;
+  position: relative;
+}
+
+.header nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background: #111;
+  transition: width 0.3s ease;
+}
+
+.header nav a:hover::after {
+  width: 100%;
+}
+
+/* Greet */
+.greet {
+  text-align: center;
+  padding: 6rem 2rem;
+  background: linear-gradient(to bottom, #fff, #f0f0f0);
+}
+
+.greet h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  letter-spacing: -1px;
+}
+
+.greet p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  color: #444;
+}
+
+/* Projects */
+.projects {
+  padding: 4rem 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.projects h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.project {
+  border: 2px solid #111;
+  padding: 1.5rem;
+  background: #fff;
+  transition: transform 0.2s ease;
+}
+
+.project:hover {
+  transform: translateY(-4px);
+}
+
+.project h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.project p {
+  font-size: 0.95rem;
+  color: #444;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 2rem;
+  border-top: 2px solid #111;
+  margin-top: 4rem;
+}
+
+.footer p {
+  font-size: 0.9rem;
+  color: #444;
+}
