@@ -5,23 +5,20 @@ function Projects() {
     <section id="projects" className="projects">
       <h2>Featured Projects</h2>
       <div className="project-grid">
-        <div className="project">
+        <div className="project1_calc">
           <h3>Commission Calculator</h3>
           <p>
             A personal project: designed & built a calculator to simplify art
             commission pricing.
           </p>
         </div>
-        <div className="project">
-          <h3>[Project Name]</h3>
-          <p>
-            A short description of another project that highlights your design +
-            UX skills.
-          </p>
+        <div className="project2_atomiq">
+          <h3>AtomIQ: Investment App UI</h3>
+          <p>A short description, focus on UX/UI</p>
         </div>
-        <div className="project">
-          <h3>[Project Name]</h3>
-          <p>Another highlight — concise but focused on process & results.</p>
+        <div className="project3_svoosh">
+          <h3>Svoosh: Complete Android App</h3>
+          <p>A short description, focus process, teamwork, results</p>
         </div>
       </div>
     </section>
