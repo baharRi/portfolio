@@ -132,6 +132,7 @@ body {
   padding: 1.5rem;
   background: #fff;
   transition: transform 0.2s ease;
+   border-radius: 10px;
 }
 
 .project:hover {
