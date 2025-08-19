@@ -47,7 +47,8 @@
 
 body {
   font-family: "Segoe UI", sans-serif;
-  background: #fafafa;
+  /*background: #fafafa;*/
+  background-image: url(assets/background.jpg);
   color: #111;
   line-height: 1.6;
 }
