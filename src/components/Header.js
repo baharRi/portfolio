@@ -1,14 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../assets/myLogo.svg"; // make sure logo.png is in src/assets/
 
-function Header() {
+function Header() { // link projects to home/projects
   return (
     <header className="header">
       <img src={logo} alt="Logo" className="logo" />
       <nav>
-        <a href="#projects">Projects</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
+        <a href="#projects">Projects</a> 
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/contact">Contact</Link>
       </nav>
     </header>
   );
