@@ -7,7 +7,7 @@ function Projects() {
       <h2>Featured Projects</h2>
       <div className="project-grid">
         <div className="project">
-          <h3>Commission Calculator</h3>
+          <h3>Commission Price Calculator</h3>
           <p>
             A personal project: designed & built a calculator to simplify art
             commission pricing.
@@ -28,13 +28,14 @@ function Projects() {
       <h2>Master's Project and Research</h2>
       <div className="project-grid">
         <div className="project">
-          <h3>False Information on Social Media</h3>
+          <h3>Mitigating False Information on Social Media</h3>
           <p>
             Research conducted...
           </p>
         </div>
       </div>
     </section>
+    <h2>The current portfolio website is available to view on GitHub:</h2>
     </>
   );
 }

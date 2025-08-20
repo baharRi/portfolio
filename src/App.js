@@ -16,7 +16,7 @@ function Home() {
       </>);
 }
 
-function App() {
+function App() { // maybe remove contact and just keep it in greet. 
   return (
     <>
     <Router>
