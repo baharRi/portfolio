@@ -7,8 +7,8 @@ function Header() { // link projects to home/projects
     <header className="header">
       <img src={logo} alt="Logo" className="logo" />
       <nav>
-        <a href="#projects">Projects</a> 
         <Link to="/">Home</Link>
+        <a href="#projects">Projects</a> 
         <Link to="/about">About</Link>
         <Link to="/contact">Contact</Link>
       </nav>

@@ -1,19 +1,17 @@
 import React from "react";
+import Greet from "../Greet";
 
 function About() { //make css class for intro, skillsEtc for skills
   return (
     <>
-    <section className="greet">
-      <h1>Bahar</h1>
-      <p>UX/UI Designer · Researcher · Creator</p>
-    </section>
+    <Greet />
 
-    <section>
+    <section className="aboutIntro">
       <p>
         I believe that well-made design can contribute to create better
         experiences for anyone. I am firm in my belief that design is
         crucial for shaping the world into a better place that is 
-        <strong>more accessible, equitable, and sustainable for every
+        <strong> more accessible, equitable, and sustainable for every
         person</strong>.
       </p>
     </section>
@@ -23,7 +21,7 @@ function About() { //make css class for intro, skillsEtc for skills
         I am eager to collaborate with teams of fellow designers as well
         as developers and other disciplines in order to craft technology 
         that serves as a tool for empowerment and helpfulness. My areas of 
-        interest are <strong>interaction design & digitalization</strong>. 
+        interest are <strong> interaction design & digitalization</strong>. 
         I see value in details, and I am highly driven to reach my own high 
         expectations with every project I take on.
       </p>
