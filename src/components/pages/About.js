@@ -1,5 +1,4 @@
 import React from "react";
-import Greet from "../Greet";
 
 function About() { //make css class for intro, skillsEtc for skills. add button to download resume. add "based in Oslo", little fun facts section (iterate through list), use icons
   return (
@@ -17,7 +16,9 @@ function About() { //make css class for intro, skillsEtc for skills. add button 
 
     <section className="about">
 
-      <h1>My motivations</h1>
+      <h1>Who am I?</h1>
+
+       <h2>My motivations</h2>
 
       <p>
         I am eager to collaborate with teams of fellow designers as well
@@ -27,17 +28,24 @@ function About() { //make css class for intro, skillsEtc for skills. add button 
         I see value in details, and I am highly driven to reach my own high 
         expectations with every project I take on.
       </p>
+
+      <h2>Values and skills</h2>
+
+      <p>
+        Something something.
+      </p>
       
       <h1>Proficiency</h1>
-      <h2>Values and skills</h2>
       <h2>Programming</h2>
-      <p>Front-end development. Languages: <em>Python, Java, Kotlin, SQL. ReactJS: JavaScript, HTML5, CSS</em></p>
+      <p>Front-end development. Languages: <em>Python, Java, Kotlin & XML, SQL. ReactJS: JavaScript, HTML5, CSS</em></p>
       <h2>Programs and software</h2>
       <p>Figma, GitHub, NVivo, Office, Overleaf & LaTeX, Adobe: InDesign, Illustrator, Photoshop</p>
-
+    </section>
+    <section className="aboutIntro"> 
+      <a href="../assets/Bahar_CV.pdf" download="Bahar_CV"><button id="resume" type="button">Download my resume</button></a>
     </section>
     </>
   );
-}
+} // TODO: add download icon
 
 export default About;

@@ -1,6 +1,6 @@
 import React from "react";
 
-function Contact() {
+function Contact() { // TODO: add icons
   return (
     <section className="greet">
       <h1>Feel free to contact me!</h1>

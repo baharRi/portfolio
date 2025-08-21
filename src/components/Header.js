@@ -27,6 +27,7 @@ const handleNavClick = (e, targetId = null) => {
 };
 
   return (
+    <div className="headerDiv">
     <header className="header">
       <img src={logo} alt="Logo" className="logo" />
       <nav>
@@ -36,6 +37,7 @@ const handleNavClick = (e, targetId = null) => {
         <Link to="/contact">Contact</Link>
       </nav>
     </header>
+    </div>
   );
 }
 
