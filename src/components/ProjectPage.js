@@ -1,4 +1,8 @@
 import { useParams, Link } from "react-router-dom";
+import Project1 from "./pages/ProjectPages/Project1";
+import Project2 from "./pages/ProjectPages/Project2";
+import Project3 from "./pages/ProjectPages/Project3";
+import Project4 from "./pages/ProjectPages/Project4";
 
 function ProjectPage() {
   const { id } = useParams();
@@ -6,26 +10,26 @@ function ProjectPage() {
   const projects = {
     1: {
       title: "Commission Price Calculator",
-      details: "More in-depth explanation, screenshots, challenges, results..."
+      details: <Project1/>
     },
     2: {
-      title: "Project 2",
-      details: "Expanded description about UX/UI focus..."
+      title: "AtomIQ: Investment App UI",
+      details: <Project2/>
     },
     3: {
-      title: "Project 3",
-      details: "Process, teamwork, results, etc..."
+      title: "Svoosh: Complete Android App",
+      details: <Project3/>
     },
     4: {
       title: "Masters Topic",
-      details: "Longer explanation of your research..."
+      details: <Project4/>
     }
   };
 
   const project = projects[id];
 
   return (
-    <div className="project-page">
+    <div className="about">
       {project ? (
         <>
           <h1>{project.title}</h1>

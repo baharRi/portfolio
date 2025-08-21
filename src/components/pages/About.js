@@ -1,4 +1,5 @@
 import React from "react";
+import DownloadIcon from '@mui/icons-material/Download';
 
 function About() { //make css class for intro, skillsEtc for skills. add button to download resume. add "based in Oslo", little fun facts section (iterate through list), use icons
   return (
@@ -42,7 +43,7 @@ function About() { //make css class for intro, skillsEtc for skills. add button 
       <p>Figma, GitHub, NVivo, Office, Overleaf & LaTeX, Adobe: InDesign, Illustrator, Photoshop</p>
     </section>
     <section className="aboutIntro"> 
-      <a href="../assets/Bahar_CV.pdf" download="Bahar_CV"><button id="resume" type="button">Download my resume</button></a>
+      <a href="../assets/Bahar_CV.pdf" download="Bahar_CV"><button id="resume" type="button">Download my resume <DownloadIcon fontSize="small" style={{ verticalAlign: 'middle', marginLeft: 8 }} /></button></a>
     </section>
     </>
   );

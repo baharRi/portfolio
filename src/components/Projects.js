@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 function Projects() {
   return (
@@ -37,7 +38,7 @@ function Projects() {
       </div>
     </section>
     <section id="githubButton" className="projects">
-    <a href="https://github.com/baharRi/portfolio" target="_blank"><button id="github" type="button">View this portfolio in GitHub</button></a>
+    <a href="https://github.com/baharRi/portfolio" target="_blank"><button id="github" type="button">View this portfolio in GitHub <GitHubIcon style={{ verticalAlign: 'middle', marginLeft: 8 }} /></button></a>
     </section>
     </>
   ); // TODO: add github icon
