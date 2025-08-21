@@ -4,9 +4,21 @@ import Greet from "../Greet";
 function About() { //make css class for intro, skillsEtc for skills. add button to download resume. add "based in Oslo", little fun facts section (iterate through list), use icons
   return (
     <>
-    <Greet />
+   
+    <section className="aboutIntro">
+      <p>
+        ❝I believe that well-made design can contribute to create better
+        experiences for anyone. I am firm in my belief that design is
+        crucial for shaping the world into a better place that is 
+        <strong> more accessible, equitable, and sustainable for every
+        person</strong>.❞
+      </p>
+    </section>
 
     <section className="about">
+
+      <h1>My motivations</h1>
+
       <p>
         I am eager to collaborate with teams of fellow designers as well
         as developers and other disciplines in order to craft technology 

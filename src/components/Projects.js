@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Projects() {
   return (
@@ -6,36 +7,38 @@ function Projects() {
     <section id="projects" className="projects">
       <h2>Featured Projects</h2>
       <div className="project-grid">
-        <div className="project">
+        <Link to="/project/1" className="project">
           <h3>Commission Price Calculator</h3>
           <p>
             A personal project: designed & built a calculator to simplify art
             commission pricing.
           </p>
-        </div>
-        <div className="project">
+        </Link>
+        <Link to="/project/2" className="project">
           <h3>AtomIQ: Investment App UI</h3>
           <p>A short description, focus on UX/UI</p>
-        </div>
-        <div className="project">
+        </Link>
+        <Link to="/project/3" className="project">
           <h3>Svoosh: Complete Android App</h3>
           <p>A short description, focus process, teamwork, results</p>
-        </div>
+        </Link>
       </div>
     </section>
 
     <section id="master" className="projects">
       <h2>Master's Project and Research</h2>
       <div className="project-grid">
-        <div className="project">
+        <Link to="/project/4" className="project">
           <h3>Mitigating False Information on Social Media</h3>
           <p>
             Research conducted...
           </p>
-        </div>
+        </Link>
       </div>
     </section>
-    <h2>The current portfolio website is available to view on GitHub:</h2>
+    <section id="githubButton" className="projects">
+    <a href="https://github.com/baharRi/portfolio" target="_blank"><button id="github" type="button">Click to view this portfolio in GitHub</button></a>
+    </section>
     </>
   );
 }
