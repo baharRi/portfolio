@@ -3,6 +3,7 @@ import Project1 from "./pages/ProjectPages/Project1";
 import Project2 from "./pages/ProjectPages/Project2";
 import Project3 from "./pages/ProjectPages/Project3";
 import Project4 from "./pages/ProjectPages/Project4";
+import Project5 from "./pages/ProjectPages/Project5";
 
 function ProjectPage() {
   const { id } = useParams();
@@ -23,6 +24,10 @@ function ProjectPage() {
     4: {
       title: "Masters Topic",
       details: <Project4/>
+    },
+    5: {
+      title: "PwC: Design Explore",
+      details: <Project5/>
     }
   };
 

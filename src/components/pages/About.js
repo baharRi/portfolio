@@ -1,7 +1,19 @@
 import React from "react";
 import DownloadIcon from '@mui/icons-material/Download';
+import RotatingText from "../RotatingText";
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
 function About() { //make css class for intro, skillsEtc for skills. add button to download resume. add "based in Oslo", little fun facts section (iterate through list), use icons
+  
+  const phrases = [
+    "paint with acrylic and oil paints.",
+    "always touch the water when I walk by a river.",
+    "spend time with my tuxedo cat. ◡̈",
+    "solve puzzles and sudokus.",
+    "be a completionist in video games.",
+    "create thoughtful user experiences. ☼"
+  ];
+
   return (
     <>
    
@@ -16,6 +28,8 @@ function About() { //make css class for intro, skillsEtc for skills. add button 
     </section>
 
     <section className="about">
+
+      <span>I like to... <RotatingText phrases={phrases} interval={2500} /></span>
 
       <h1>Who am I?</h1>
 

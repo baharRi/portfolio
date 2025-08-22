@@ -22,7 +22,7 @@ function Home() {
     </section>
       <Projects />
       </>);
-}
+} //what can I do for you? check out my about me page ->
 
 function App() { // maybe remove contact and just keep it in greet. 
   return (

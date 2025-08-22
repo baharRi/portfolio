@@ -26,7 +26,7 @@ function Projects() {
       </div>
 
       <div className="project-grid">
-        <Link to="/project/1" className="project">
+        <Link to="/project/5" className="project">
           <h3>PwC Design Explore</h3>
           <p>
             text text

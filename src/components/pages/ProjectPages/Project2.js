@@ -9,7 +9,7 @@ function Project2() { // OBS: double check the class in css. make top a grid
 
       <h1>AtomIQ: Investment App UI</h1>
       <section className="projectInfoGrid">
-        <p><AccessTimeFilledIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }} />n months</p>
+        <p><AccessTimeFilledIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }} />3 months</p>
         <p><GroupsIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>collaborative groupwork</p>
       </section>
       

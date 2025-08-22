@@ -277,8 +277,14 @@ button:hover {
 
 .projectPage span {
   color: #fff;
-  text-shadow: 0px 0px 5px #ffffff;
+  text-shadow: 0px 0px 5px #c2c2c2;
 }
+
+/*
+.anim {
+  z-index: 10;
+}
+*/
 
 .projectDesc {
   text-align: justify;
@@ -297,7 +303,7 @@ button:hover {
 
 .aboutIntro {
   animation: fadeUp 1s ease-out forwards;
-  padding: 4rem 2rem;
+  padding: 6rem 2rem;
   max-width: 1000px;
   margin: auto;
   text-align: center;
@@ -323,6 +329,16 @@ button:hover {
   max-width: 1000px;
   margin: auto;
   text-align: justify;
+}
+
+.about span {
+  padding: 2rem 2rem;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  color: #fff;
 }
 
 /* Footer */
