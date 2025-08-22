@@ -24,6 +24,16 @@ function Projects() {
           <p>A short description, focus process, teamwork, results</p>
         </Link>
       </div>
+
+      <div className="project-grid">
+        <Link to="/project/1" className="project">
+          <h3>PwC Design Explore</h3>
+          <p>
+            text text
+          </p>
+        </Link>
+      </div>
+      
     </section>
 
     <section id="master" className="projects">
