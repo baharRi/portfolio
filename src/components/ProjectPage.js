@@ -29,19 +29,18 @@ function ProjectPage() {
   const project = projects[id];
 
   return (
-    <div className="about">
+    <div>
       {project ? (
         <>
-          <h1>{project.title}</h1>
           <p>{project.details}</p>
         </>
       ) : (
         <p>Project not found.</p>
       )}
 
-      <Link to="/#projects" className="back-link">
+      <button><Link to="/#projects" className="back-link">
         ← Back to projects
-      </Link>
+      </Link></button>
     </div>
   );
 }

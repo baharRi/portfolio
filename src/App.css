@@ -246,6 +246,53 @@ button:hover {
   color: #444;
 }
 
+/* Individual project */
+
+.projectInfoGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  font-size: large;
+  font-weight: 500;
+  padding: -3rem;
+}
+
+.projectPage {
+  padding: 4rem 2rem;
+  max-width: 1000px;
+  margin: auto;
+  border-left: 1px solid #c2c2c2;
+}
+
+.projectPage h1 {
+  font-size: 3rem;
+  border-bottom:1px solid #c2c2c2;
+  text-transform: uppercase;
+}
+
+.projectPage p {
+  padding: 4rem 0rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.projectPage span {
+  color: #fff;
+  text-shadow: 0px 0px 5px #ffffff;
+}
+
+.projectDesc {
+  text-align: justify;
+}
+
+.projectSpecial {
+  padding: 2rem 2rem;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
 /* About */
 
 .aboutIntro {
@@ -272,7 +319,7 @@ button:hover {
 }
 
 .about p {
-padding: 4rem 2rem;
+  padding: 4rem 2rem;
   max-width: 1000px;
   margin: auto;
   text-align: justify;
