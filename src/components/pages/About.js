@@ -1,7 +1,6 @@
 import React from "react";
 import DownloadIcon from '@mui/icons-material/Download';
 import RotatingText from "../RotatingText";
-import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
 function About() { //make css class for intro, skillsEtc for skills. add button to download resume. add "based in Oslo", little fun facts section (iterate through list), use icons
   
