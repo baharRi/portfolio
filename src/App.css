@@ -311,6 +311,17 @@ button:hover {
   font-size: 1.5rem;
   color: #fff;
 }
+.aboutIntro span {
+  color: #5e5e5e;
+  font-weight: 100;
+  transition: all 0.3s ease;
+}
+.aboutIntro span:hover {
+  color: #fff;
+  cursor: pointer;
+  transform: translateX(1rem);
+  text-decoration: underline;
+}
 
 .about {
   padding: 4rem 2rem;

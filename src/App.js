@@ -1,6 +1,7 @@
 import React from "react";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 import Header from "./components/Header";
 import Greet from "./components/Greet";
@@ -19,6 +20,7 @@ function Home() {
       <p>
         A UX and front-end enthusiast motivated to blend elements of <strong>design</strong> and <strong>tech</strong>.
       </p>
+      <Link style={{ textDecoration: 'none' }} to="/about"><span>What can I do for you? Read <strong>about me</strong> <ArrowForwardIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/></span></Link>
     </section>
       <Projects />
       </>);
