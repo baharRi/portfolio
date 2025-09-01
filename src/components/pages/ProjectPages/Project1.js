@@ -70,7 +70,16 @@ function Project1() { // OBS: double check the class in css
           <p>❝I built something something.❞</p>
         </div>
 
-        <h2>Project Outcomes</h2>
+        <h2>Personal art projects – for context and interest only</h2>
+        <p className="projectDesc">Alongside my passion for design and tech, I have a strong interest in the visual arts.
+          I have been painting both traditionally and digitally for several years, and I find that it is a 
+          great way to relax and express my creativity. Below are some examples of my artwork, for the curious and interested.<br />
+          Strike up a conversation about my work!</p>
+        <div className="art-grid">
+          <img src={require("../../../assets/art1.jpg")} alt="art1" />
+          <img src={require("../../../assets/art2.jpg")} alt="art2" />
+          <img src={require("../../../assets/art3.jpg")} alt="art3" />
+        </div>
     </section>
   );
 }

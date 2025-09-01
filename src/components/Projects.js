@@ -8,25 +8,25 @@ function Projects() {
     <section id="projects" className="projects">
       <h2>Featured Projects</h2>
       <div className="project-grid">
-        <Link to="/project/1" className="project">
+        <Link to="/project/1" className="project" style={{ textDecoration: 'none' }}>
           <h3>Commission Price Calculator</h3>
           <p>
             A personal project: designed & built a calculator to simplify art
             commission pricing.
           </p>
         </Link>
-        <Link to="/project/2" className="project">
+        <Link to="/project/2" className="project" style={{ textDecoration: 'none' }}>
           <h3>AtomIQ: Investment App UI</h3>
           <p>A short description, focus on UX/UI</p>
         </Link>
-        <Link to="/project/3" className="project">
+        <Link to="/project/3" className="project" style={{ textDecoration: 'none' }}>
           <h3>Svoosh: Complete Android App</h3>
           <p>A short description, focus process, teamwork, results</p>
         </Link>
       </div>
 
       <div className="project-grid">
-        <Link to="/project/5" className="project">
+        <Link to="/project/5" className="project" style={{ textDecoration: 'none' }}>
           <h3>PwC Design Explore</h3>
           <p>
             text text
@@ -39,7 +39,7 @@ function Projects() {
     <section id="master" className="projects">
       <h2>Master's Project and Research</h2>
       <div className="project-grid">
-        <Link to="/project/4" className="project">
+        <Link to="/project/4" className="project" style={{ textDecoration: 'none' }}>
           <h3>Mitigating False Information on Social Media</h3>
           <p>
             Research conducted...
