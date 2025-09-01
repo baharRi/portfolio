@@ -1,8 +1,7 @@
 {
+  "homepage": "https://baharRi.github.io/",
   "name": "portfolio",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://baharRi.github.io/",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
