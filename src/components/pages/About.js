@@ -57,7 +57,7 @@ function About() { //make css class for intro, skillsEtc for skills. add button 
       <p>Figma, GitHub, NVivo, Office, Overleaf & LaTeX, Adobe: InDesign, Illustrator, Photoshop</p>
     </section>
     <section className="aboutIntro"> 
-      <a href="../assets/Bahar_CV.pdf" download="Bahar_CV"><button id="resume" type="button">Download my resume <DownloadIcon fontSize="small" style={{ verticalAlign: 'middle', marginLeft: 8 }} /></button></a>
+      <button id="resume" type="button"><a href="../assets/Bahar_CV.pdf" download="Bahar_CV">Download my resume <DownloadIcon fontSize="small" style={{ verticalAlign: 'middle', marginLeft: 8 }} /></a></button>
     </section>
     </>
   );

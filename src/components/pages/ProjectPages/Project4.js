@@ -34,7 +34,7 @@ function Project4() { // OBS: double check the class in css
             towards this democratization, attempting to mitigate the harmful effects of false information.</p>
 
 <a href="https://recruitfacts.wordpress.com" target="_blank" rel="noreferrer noopener"><button id="wordpress" type="button">Project information website</button></a>
-<a><button id="thesis" type="button">Download my thesis</button></a>
+<a href="/Bahar_masters-thesis_150525" download>Download my thesis</a>
     </section>
   );
 }
