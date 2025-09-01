@@ -48,7 +48,7 @@ function Projects() {
       </div>
     </section>
     <section id="githubButton" className="projects">
-    <a href="https://github.com/baharRi/portfolio" target="_blank"><button id="github" type="button">View this portfolio in GitHub <GitHubIcon style={{ verticalAlign: 'middle', marginLeft: 8 }} /></button></a>
+    <a href="https://github.com/baharRi/portfolio" target="_blank" rel="noreferrer noopener"><button id="github" type="button">View this portfolio in GitHub <GitHubIcon style={{ verticalAlign: 'middle', marginLeft: 8 }} /></button></a>
     </section>
     </>
   ); // TODO: add github icon

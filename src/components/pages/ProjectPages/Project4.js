@@ -33,7 +33,7 @@ function Project4() { // OBS: double check the class in css
             discerning design implications with a focus on promoting media literacy provides a step 
             towards this democratization, attempting to mitigate the harmful effects of false information.</p>
 
-<a href="https://recruitfacts.wordpress.com" target="_blank"><button id="wordpress" type="button">Project information website</button></a>
+<a href="https://recruitfacts.wordpress.com" target="_blank" rel="noreferrer noopener"><button id="wordpress" type="button">Project information website</button></a>
 <a><button id="thesis" type="button">Download my thesis</button></a>
     </section>
   );
