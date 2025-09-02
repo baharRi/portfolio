@@ -18,7 +18,7 @@ function Home() {
       <Greet />
       <section className="aboutIntro">
       <p>
-        Works to make a change in online experiences — a UX and front-end enthusiast motivated to blend elements of <strong>design</strong> and <strong>tech</strong>.
+        Crafting engaging digital experiences through UX/UI design and research, contributing to projects that <strong>enhance usability and sustainability</strong>.
       </p>
       <Link style={{ textDecoration: 'none' }} to="/about"><span>What can I do for you? Read <strong>about me</strong> <ArrowForwardIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/></span></Link>
     </section>

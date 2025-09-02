@@ -1,6 +1,7 @@
 import React from "react";
 import DownloadIcon from '@mui/icons-material/Download';
 import RotatingText from "../RotatingText";
+import tuxCat from '../../assets/catGif.gif';
 
 function About() { //make css class for intro, skillsEtc for skills. add button to download resume. add "based in Oslo", little fun facts section (iterate through list), use icons
   
@@ -18,21 +19,34 @@ function About() { //make css class for intro, skillsEtc for skills. add button 
    
     <section className="aboutIntro">
       <p>
-        ❝I believe that well-made design can contribute to create better
-        experiences for anyone. I am firm in my belief that design is
-        crucial for shaping the world into a better place that is 
-        <strong> more accessible, equitable, and sustainable for every
-        person</strong>.❞
+        「A UX and front-end enthusiast motivated to blend elements of design and tech — working to make a change in online experiences.」
       </p>
     </section>
 
     <section className="about">
+      <div className="aboutBox">
+      <span className="likes">I like to... <RotatingText phrases={phrases} interval={2500} /></span> 
+      <img
+        src={tuxCat}
+        alt="Tux Cat"
+        style={{ width: 130, height: 130 }}
+      />
+      </div>
 
-      <span>I like to... <RotatingText phrases={phrases} interval={2500} /></span>
+      <h1>About Me</h1>
 
-      <h1>Who am I?</h1>
+       <h2>Background</h2>
 
-       <h2>My motivations</h2>
+      <p>
+        Before pursuing both a bachelor's and master's degree in Information Science at the University of Oslo, 
+        I studied the visual arts for several years. My passion for creating 
+        meaningful and engaging experiences led me to the field of UX/UI design, 
+        where I have been able to combine my artistic skills with my interest in technology. 
+        I have a strong foundation in user-centered design principles and a keen eye for detail, 
+        which I apply to every project I work on. 
+      </p>
+
+      <h2>Motivations & Focus</h2>
 
       <p>
         I am eager to collaborate with teams of fellow designers as well
@@ -43,17 +57,34 @@ function About() { //make css class for intro, skillsEtc for skills. add button 
         expectations with every project I take on.
       </p>
 
-      <h2>Values and skills</h2>
+      <h2>Proficiency</h2>
+      <h3>Development →</h3>
+      <div className ="skillsWrapper">
+      <div className ="skills">
+        <span className="skill prog">ReactJS</span>
+        <span className="skill prog">JavaScript</span>
+        <span className="skill prog">HTML5</span>
+        <span className="skill prog">CSS</span>
+        <span className="skill prog">Node.js</span>
+        <span className="skill prog">Python</span> 
+        <span className="skill prog">Java</span>
+        <span className="skill prog">Kotlin</span>
+        <span className="skill prog">XML</span>
+        <span className="skill prog">SQL</span>
+        </div>
+        </div>
 
-      <p>
-        Something something.
-      </p>
-      
-      <h1>Proficiency</h1>
-      <h2>Programming</h2>
-      <p>Front-end development. Languages: <em>Python, Java, Kotlin & XML, SQL. ReactJS: JavaScript, HTML5, CSS</em></p>
-      <h2>Programs and software</h2>
-      <p>Figma, GitHub, NVivo, Office, Overleaf & LaTeX, Adobe: InDesign, Illustrator, Photoshop</p>
+      <h3>Programs & Software →</h3>
+      <div className ="skillsWrapper">
+      <div className ="skills">
+        <span className="skill soft">Figma</span> 
+        <span className="skill soft">Git</span> 
+        <span className="skill soft">NVivo</span> 
+        <span className="skill soft">Office</span> 
+        <span className="skill soft">Overleaf & LaTeX</span> 
+        <span className="skill soft">Adobe XD</span> 
+        </div>
+        </div>
     </section>
     <section className="aboutIntro"> 
       <button id="resume" type="button"><a href="../assets/Bahar_CV.pdf" download="Bahar_CV">Download my resume <DownloadIcon fontSize="small" style={{ verticalAlign: 'middle', marginLeft: 8 }} /></a></button>

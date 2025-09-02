@@ -323,6 +323,17 @@ button:hover {
   text-decoration: underline;
 }
 
+.aboutBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.aboutBox img {
+  margin: 2rem 2rem;
+  filter: grayscale(100%);
+}
+
 .about {
   padding: 4rem 2rem;
   max-width: 1000px;
@@ -342,14 +353,61 @@ button:hover {
   text-align: justify;
 }
 
-.about span {
+.about h3 {
+  color: #fff;
+  text-shadow: 0px 0px 5px #c2c2c2;
+  font-weight: 200;
+}
+
+.likes {
   padding: 2rem 2rem;
   max-width: 1000px;
-  margin: auto;
   text-align: center;
   margin-bottom: 2rem;
   font-size: 1rem;
   color: #fff;
+}
+
+.skillsWrapper {
+  max-width: 100%;  /* full width of container */
+  display: flex;           /* make it a flex row */
+  overflow-x: auto;        /* allow horizontal scroll */
+  -webkit-overflow-scrolling: touch; /* smooth scroll on mobile */
+  gap: 10px;               /* spacing between items */
+  padding-bottom: 10px;
+  box-sizing: border-box;
+  scroll-behavior: smooth; /* optional smooth scroll */
+}
+
+.skills {
+  display: inline-flex;    /* inline-flex keeps width to content */
+  gap: 10px; /* spacing between tags */
+  margin: 20px 0px;
+}
+
+.skill {
+ flex: 0 0 auto;          /* important: don’t shrink or grow */
+  padding: 6px 14px;
+  background-color: #5e5e5e;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: white;
+  white-space: wrap;     /* keep text in one line */
+}
+
+.prog { background-color: #495c4b; }
+.soft { background-color: #404850; }
+
+.skillsWrapper::-webkit-scrollbar {
+  height: 6px;
+}
+.skillsWrapper::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 3px;
+}
+.skillsWrapper::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
 }
 
 /* Contact */
