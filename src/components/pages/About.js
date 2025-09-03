@@ -39,7 +39,7 @@ function About() { //make css class for intro, skillsEtc for skills. add button 
 
       <p>
         Before pursuing both a bachelor's and master's degree in Information Science at the University of Oslo, 
-        I studied the visual arts for several years. My passion for creating 
+        I studied the visual arts for 3 years following a lifelong personal interest. My passion for creating 
         meaningful and engaging experiences led me to the field of UX/UI design, 
         where I have been able to combine my artistic skills with my interest in technology. 
         I have a strong foundation in user-centered design principles and a keen eye for detail, 
@@ -85,6 +85,13 @@ function About() { //make css class for intro, skillsEtc for skills. add button 
         <span className="skill soft">Adobe XD</span> 
         </div>
         </div>
+
+      <h3>Certifications →</h3>
+      <div className ="skillsWrapper">
+      <div className ="skills">
+        </div>
+        </div>
+
     </section>
     <section className="aboutIntro"> 
       <button id="resume" type="button"><a href="../assets/Bahar_CV.pdf" download="Bahar_CV">Download my resume <DownloadIcon fontSize="small" style={{ verticalAlign: 'middle', marginLeft: 8 }} /></a></button>
