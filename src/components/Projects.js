@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import GitHubIcon from '@mui/icons-material/GitHub';
 
-function Projects() {
+function Projects() { /* focus on UX/UI for project2, focus on process, teamwork, and results for project3 */
   return (
     <>
     <section id="projects" className="projects">
@@ -17,11 +17,13 @@ function Projects() {
         </Link>
         <Link to="/project/2" className="project" style={{ textDecoration: 'none' }}>
           <h3>AtomIQ: Investment App UI</h3>
-          <p>A short description, focus on UX/UI</p>
+          <p>Developing the interaction design for upcoming investment app, a real case for
+            the client AtomIQ. 
+          </p>
         </Link>
         <Link to="/project/3" className="project" style={{ textDecoration: 'none' }}>
           <h3>Svoosh: Complete Android App</h3>
-          <p>A short description, focus process, teamwork, results</p>
+          <p>Independent and interdisciplinary work among students, developing an application from scratch.</p>
         </Link>
       </div>
 
@@ -29,7 +31,8 @@ function Projects() {
         <Link to="/project/5" className="project" style={{ textDecoration: 'none' }}>
           <h3>PwC Design Explore</h3>
           <p>
-            text text
+            A design workshop at PwC, focusing on transformative design to solve a real case 
+            for the client Ruter Transport. 
           </p>
         </Link>
       </div>
@@ -42,7 +45,8 @@ function Projects() {
         <Link to="/project/4" className="project" style={{ textDecoration: 'none' }}>
           <h3>Mitigating False Information on Social Media</h3>
           <p>
-            Research conducted...
+            Research conducted for my master's thesis, focusing on media literacy and
+            technological democratization.
           </p>
         </Link>
       </div>
