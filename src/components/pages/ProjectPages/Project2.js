@@ -12,6 +12,8 @@ function Project2() { // OBS: double check the class in css. make top a grid
         <p><AccessTimeFilledIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }} />3 months</p>
         <p><GroupsIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>collaborative groupwork</p>
       </section>
+
+      <img src={require("../../../assets/project2/atomiqBanner.png")} alt="project 2 banner" className="projectBanner"/>
       
       <h2>Gained Experience</h2>
       <p><TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>Methodology: Transformative Design <br/>
@@ -19,7 +21,8 @@ function Project2() { // OBS: double check the class in css. make top a grid
       <TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>Grew highly comfortable using Figma <br/>
       <TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>Cooperating with an established start-up team</p>
 
-
+      <div className="spacer"></div>
+      
       <h2>Project Description</h2>
       <p className="projectDesc">In the class of IN3010: Transformative Design, with a focus on social sustainability, 
         my design team partnered with the established core team from AtomIQ to create a 

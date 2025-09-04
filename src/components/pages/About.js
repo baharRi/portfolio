@@ -57,6 +57,8 @@ function About() { //make css class for intro, skillsEtc for skills. add button 
         expectations with every project I take on.
       </p>
 
+      <div className="spacer"></div>
+
       <h2>Proficiency</h2>
       <h3>Development →</h3>
       <div className ="skillsWrapper">
