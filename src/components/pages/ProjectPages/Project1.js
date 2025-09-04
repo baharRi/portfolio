@@ -15,9 +15,10 @@ function Project1() { // OBS: double check the class in css
       <h2>Gained Experience</h2>
       <p><TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>idk<br/>
       <TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>idk<br/>
-      <TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>Grew more comfortable using Reactjs <br/>
+      <TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>Grew more comfortable using Git, ReactJS, and Electron<br/>
       <TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>Problem-solving for a personal use case</p>
 
+      <div className="spacer"></div>
 
       <h2>Project Description</h2>
       <p className="projectDesc">In the class of IN3010: Transformative Design, with a focus on social sustainability, 
@@ -44,9 +45,14 @@ function Project1() { // OBS: double check the class in css
         <div className="projectSpecial">
           <p>❝To conceptualize a new age stocks and trading platform, which emphasizes democratization, 
             accessibility and sustainability.❞</p>
+
+        <div className="spacer"></div>
+        
             <p>❝To democratize and make investment available to everyone and inform about, simplify and 
               reduce risk as well as promote sustainable investment solutions rather than financial ones.❞</p>
         </div>
+
+        <div className="noLineSpacer"></div>
 
         <h2>Company Collaboration</h2>
         <span>write something quick and summarized here.</span>

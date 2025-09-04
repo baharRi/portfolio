@@ -14,7 +14,7 @@ function About() { //make css class for intro, skillsEtc for skills. add button 
     "create thoughtful user experiences. ☼"
   ];
 
-  return (
+  return ( // removed from bg: I have a strong foundation in user-centered design principles and a keen eye for detail, which I apply to every project I work on. 
     <>
    
     <section className="aboutIntro">
@@ -39,11 +39,11 @@ function About() { //make css class for intro, skillsEtc for skills. add button 
 
       <p>
         Before pursuing both a bachelor's and master's degree in Information Science at the University of Oslo, 
-        I studied the visual arts for 3 years following a lifelong personal interest. My passion for creating 
-        meaningful and engaging experiences led me to the field of UX/UI design, 
-        where I have been able to combine my artistic skills with my interest in technology. 
-        I have a strong foundation in user-centered design principles and a keen eye for detail, 
-        which I apply to every project I work on. 
+        I studied the visual arts for 3 years following a lifelong personal interest. Additionally, I spent 
+        majority of my younger years fascinated by technology and all the activities it mediates. 
+        My passion for creating meaningful and engaging experiences as well as my committment to expressing 
+        my personal creativity led me to the field of UX/UI design, where I have been able to combine my 
+        artistic skills with my interest in technology. 
       </p>
 
       <h2>Motivations & Focus</h2>
@@ -68,6 +68,7 @@ function About() { //make css class for intro, skillsEtc for skills. add button 
         <span className="skill prog">HTML5</span>
         <span className="skill prog">CSS</span>
         <span className="skill prog">Node.js</span>
+        <span className="skill prog">Electron</span>
         <span className="skill prog">Python</span> 
         <span className="skill prog">Java</span>
         <span className="skill prog">Kotlin</span>

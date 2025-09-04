@@ -19,9 +19,10 @@ function Project3() { // OBS: double check the class in css
       <TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>GitHub, Figma, Jira<br/>
       <TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>Programming: Kotlin, XML</p>
 
+      <div className="spacer"></div>
 
       <h2>Project Description</h2>
-      <span>My roles: Head of design in Figma and XML implementation, head of user involvement</span>
+      <span>Roles: Head of design in Figma and XML implementation, Head of user involvement</span>
       <p className="projectDesc">In the class of IN2000: Software Engineering, I worked in an interdisciplinary 
         team with other informatics students (developers + designers) to create an application made to guide 
         the people of Oslo on their bicycling journeys throughout the city. The app uses weather APIs from the 
@@ -44,10 +45,15 @@ function Project3() { // OBS: double check the class in css
         <div className="projectSpecial">
           <p>❝Create an application that shows recommended biking routes in Oslo, where variables such as traffic should 
             be taken into account.❞</p>
+
+        <div className="spacer"></div>
+        
             <p>❝Establish a system that raises and maintains commitment and motivation around bicycling as a sustainable 
               mode of transportation; this is important both for the safety of the population and in a larger perspective 
               - for the global society.❞</p>
         </div>
+
+        <div className="noLineSpacer"></div>
 
         <h2>Independently Collaborating with Other Disciplines</h2>
         <span>write something quick and summarized here.</span>

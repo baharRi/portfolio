@@ -55,7 +55,7 @@ function Projects() { /* focus on UX/UI for project2, focus on process, teamwork
     <a href="https://github.com/baharRi/portfolio" target="_blank" rel="noreferrer noopener"><button id="github" type="button">View this portfolio in GitHub <GitHubIcon style={{ verticalAlign: 'middle', marginLeft: 8 }} /></button></a>
     </section>
     </>
-  ); // TODO: add github icon
+  ); // clean up bottom button (new class centeredButton?)
 }
 
 export default Projects;
