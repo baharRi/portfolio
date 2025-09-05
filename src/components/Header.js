@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
-import logo from "../assets/myLogo.svg"; // make sure logo.png is in src/assets/
+import logo from "../assets/myLogo.svg"; 
+import MenuIcon from '@mui/icons-material/Menu';
 
 function Header() { // link projects to home/projects
 
 const navigate = useNavigate();
 const location = useLocation();
+const [isOpen, setIsOpen] = useState(false);
 
 const handleNavClick = (e, targetId = null) => {
   e.preventDefault();
@@ -30,7 +32,13 @@ const handleNavClick = (e, targetId = null) => {
     <div className="headerDiv">
     <header className="header">
       <img src={logo} alt="Logo" className="logo" />
-      <nav>
+
+      {/*hamburger menu for mobile*/}
+
+      <button className="hamburger" onClick={() => setIsOpen(!isOpen)}
+      aria-label="Toggle navigation menu"><MenuIcon /></button>
+
+      <nav className={`${isOpen ? "open" : ""}`}>
         <Link to="/" onClick={(e) => handleNavClick(e)}>Home</Link>
         <Link to="/#projects" onClick={(e) => handleNavClick(e, "projects")}>Projects</Link>
         <Link to="/about">About</Link>
