@@ -134,7 +134,7 @@ button:hover {
   width: 100%;
   top: 0;
   background: #777777;
-   z-index: 50;
+   z-index: 1000;
 }
 
 .header {
@@ -143,13 +143,13 @@ button:hover {
   align-items: center;
   padding: 1.5rem 3rem;
   border: 1px solid rgba(255, 255, 255, 0.3);
-    background: radial-gradient(
+  background: radial-gradient(
     circle,
     rgba(228, 228, 228, 0.25) 0%,
     rgba(255, 255, 255, 0) 70%
   );
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
-  z-index: 51;
+  z-index: 1001;
 }
 
 .logo {
@@ -163,6 +163,9 @@ button:hover {
   background: none;
   border: none;
   color: #000;
+  position: absolute;
+  right: 0;
+  margin: 3rem;
 }
 .hamburger::after {
   all: unset;
@@ -170,21 +173,35 @@ button:hover {
 
 @media (max-width: 768px) {
   .hamburger {
-    display: block;
+    display: flex;
   }
-  header nav a {
+  .navlinks {
     position: absolute;
-    top: 60px;
+    top: 100%;
     right: 0;
-    background: #222;
+    width: 100%;
+    background: #c2c2c2;
     flex-direction: column;
     padding: 1rem;
     display: none; 
+    gap: 1rem;
+    background: #2c2c2c;
+    z-index: 40;
   }
-  header nav.open a {
+  .navlinks.open {
     display: flex; 
   }
 }
+
+/*
+.overlay {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 30; /* less than header but more than other content 
+}*/
 
 .header nav a {
   margin-left: 1.5rem;

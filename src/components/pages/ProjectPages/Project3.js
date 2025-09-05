@@ -59,6 +59,9 @@ function Project3() { // OBS: double check the class in css
 
         <h2>Independently Collaborating with Other Disciplines</h2>
         <span>write something quick and summarized here.</span>
+
+        <img src={require("../../../assets/project3/svooshTimelinePic.png")} alt="project 3 timeline" className="projectBanner"/>
+
         <p className="projectDesc">Talk about meetings.</p>
         <p className="projectDesc">The goals and objectives... Something about user involvement. 
           Focus on the local environment and surroundings and be future-oriented. Give the user the option to add 

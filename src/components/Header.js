@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import logo from "../assets/myLogo.svg"; 
 import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
 
 function Header() { // link projects to home/projects
 
@@ -36,9 +37,11 @@ const handleNavClick = (e, targetId = null) => {
       {/*hamburger menu for mobile*/}
 
       <button className="hamburger" onClick={() => setIsOpen(!isOpen)}
-      aria-label="Toggle navigation menu"><MenuIcon /></button>
+      aria-label="Toggle navigation menu">{isOpen ? <CloseIcon fontSize="large" /> : <MenuIcon fontSize="large" /> }</button>
 
-      <nav className={`${isOpen ? "open" : ""}`}>
+      {isOpen && <div className="overlay" onClick={() => setIsOpen(false)}></div>}
+
+      <nav className= {`navlinks ${isOpen ? "open" : ""}`}>
         <Link to="/" onClick={(e) => handleNavClick(e)}>Home</Link>
         <Link to="/#projects" onClick={(e) => handleNavClick(e, "projects")}>Projects</Link>
         <Link to="/about">About</Link>

@@ -34,7 +34,8 @@ function Project4() { // OBS: double check the class in css
       literacy and encouraging technological democratization with a focus on people’s lived 
       experiences underlining their right to rightful information. For handling this issue, 
       discerning design implications with a focus on promoting media literacy provides a step 
-      towards this democratization, attempting to mitigate the harmful effects of false information.</p>
+      towards this democratization, attempting to mitigate the harmful effects of false information.<br />
+      A shorter article detailing the work of this thesis is underway.</p>
 </section>
 
 <section className="projects">

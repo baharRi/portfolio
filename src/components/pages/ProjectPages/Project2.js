@@ -25,10 +25,10 @@ function Project2() { // OBS: double check the class in css. make top a grid
 
       <h2>Project Description</h2>
       <span>Roles: Head of Figma prototyping</span>
-      <p className="projectDesc">In the class of IN3010: Transformative Design, with a focus on social 
+      <p className="projectDesc">In the class of <strong>IN3010: Transformative Design</strong>, with a focus on social 
         sustainability, my design team partnered with the established core team from AtomIQ to create 
         the interaction design layer of their upcoming investment app. Contributing 
-        with our creativity as design students, we developed a novel interface layout. Attempting 
+        with our creativity as design students, we developed a novel interface layout to compliment their novel technology. Attempting 
         to ease the intimidation of existing crypto currency investment apps, we displayed the 
         investment companies in the form of cards on a dashboard for the user. This followed our 
         design model of dividing the often overwhelming experience of crypto investment into smaller 
@@ -67,9 +67,11 @@ function Project2() { // OBS: double check the class in css. make top a grid
 
         <img src={require("../../../assets/project2/atomiqCoordination.png")} alt="project 2 banner" className="projectBanner"/>
 
-        <p className="projectDesc">Talk about collaborative TCoT, workshops, the mindmap etc. And then a picture.<br/>
-        The goals and objectives... 
-          Find ways to make the interface of a crypto trading app more comprehensible and welcoming. 
+        <p className="projectDesc">Our design team sat in on numerous meetings with the core team of AtomIQ to 
+          discuss their visions for the project. Additionally, we had multiple workshops with the team in order to map 
+          issues such as stakeholders, trends, and values for the application. This resulted in the collaborative generation
+          of a <strong>gigamap</strong> as presented over (blurred for non-disclosure). <br/>
+        The goals and objectives: Find ways to make the interface of a crypto trading app more comprehensible and welcoming. 
           Find ways to educate and inform new users about typical trading terminology. 
          Find ways to make the process of investing easier for new users. 
          Do NOT push the user to make investment decisions; only educate and inform.</p>
@@ -87,7 +89,7 @@ function Project2() { // OBS: double check the class in css. make top a grid
           more opportunities for technology advancement.</p>
 
         <div className="projectSpecial">
-          <p>❝I built something something.❞</p>
+          <p>❝We successfully created the best app ever.❞</p>
         </div>
     </section>
   );
