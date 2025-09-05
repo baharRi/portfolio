@@ -32,7 +32,7 @@ function Projects() { /* focus on UX/UI for project2, focus on process, teamwork
           <h3>PwC Design Explore</h3>
           <p>
             A design workshop at PwC, focusing on transformative design to solve a real case 
-            for the client Ruter Transport. 
+            for the client Ruter AS. 
           </p>
         </Link>
       </div>

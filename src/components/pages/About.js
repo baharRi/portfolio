@@ -82,6 +82,7 @@ function About() { //make css class for intro, skillsEtc for skills. add button 
       <div className ="skills">
         <span className="skill soft">Figma</span> 
         <span className="skill soft">Git</span> 
+        <span className="skill soft">Jira</span> 
         <span className="skill soft">NVivo</span> 
         <span className="skill soft">Office</span> 
         <span className="skill soft">Overleaf & LaTeX</span> 

@@ -37,7 +37,7 @@ function ProjectPage() {
     <div>
       {project ? (
         <>
-          <p>{project.details}</p>
+          <div>{project.details}</div>
         </>
       ) : (
         <p>Project not found.</p>
