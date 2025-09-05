@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.cf9f5838.css",
-    "main.js": "/portfolio/static/js/main.83a2a1aa.js",
+    "main.js": "/portfolio/static/js/main.81f71b0e.js",
     "static/js/453.ad7768ec.chunk.js": "/portfolio/static/js/453.ad7768ec.chunk.js",
     "static/media/sand.jpg": "/portfolio/static/media/sand.85fbc2d81eb844fe630e.jpg",
     "static/media/atomiqBanner.png": "/portfolio/static/media/atomiqBanner.cd5f216c1a523ca5fd2c.png",
+    "static/media/svooshBanner.png": "/portfolio/static/media/svooshBanner.5920b0d5c14661f3fea9.png",
     "static/media/atomiqPlanning.png": "/portfolio/static/media/atomiqPlanning.0f7f8b7678143d590596.png",
     "static/media/atomiqWireframe.png": "/portfolio/static/media/atomiqWireframe.68504599d2138a27c89e.png",
     "static/media/atomiqCoordination.png": "/portfolio/static/media/atomiqCoordination.439f8c8cfecd7f316cd2.png",
@@ -15,11 +16,11 @@
     "static/media/myLogo.svg": "/portfolio/static/media/myLogo.b4259606120cb2e77789b3cc3be00b50.svg",
     "index.html": "/portfolio/index.html",
     "main.cf9f5838.css.map": "/portfolio/static/css/main.cf9f5838.css.map",
-    "main.83a2a1aa.js.map": "/portfolio/static/js/main.83a2a1aa.js.map",
+    "main.81f71b0e.js.map": "/portfolio/static/js/main.81f71b0e.js.map",
     "453.ad7768ec.chunk.js.map": "/portfolio/static/js/453.ad7768ec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cf9f5838.css",
-    "static/js/main.83a2a1aa.js"
+    "static/js/main.81f71b0e.js"
   ]
 }
