@@ -17,13 +17,13 @@ function Projects() { /* focus on UX/UI for project2, focus on process, teamwork
         </Link>
         <Link to="/project/2" className="project" style={{ textDecoration: 'none' }}>
           <h3>AtomIQ: Investment App UI</h3>
-          <p>Developing the interaction design for upcoming investment app, a real case for
-            the client AtomIQ. 
-          </p>
+          <p>Developing the interaction design for upcoming investment app, a 
+            real case for the client AtomIQ.</p>
         </Link>
         <Link to="/project/3" className="project" style={{ textDecoration: 'none' }}>
           <h3>Svoosh: Complete Android App</h3>
-          <p>Independent and interdisciplinary work among students, developing an application from scratch.</p>
+          <p>Independent and interdisciplinary work among students, developing an 
+            application from scratch.</p>
         </Link>
       </div>
 

@@ -22,7 +22,7 @@ const handleNavClick = (e, targetId = null) => {
 
   if (location.pathname !== "/") {
     navigate("/");
-    setTimeout(scrollToTarget, 100); // wait for Home to render
+    setTimeout(scrollToTarget, 100); // wait for home to render
   } else {
     scrollToTarget();
   }

@@ -13,6 +13,8 @@ function Project3() { // OBS: double check the class in css
         <p><GroupsIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>interdisciplinary teamwork</p>
       </section>
       
+      <img src={require("../../../assets/project3/svooshBanner.png")} alt="project 3 banner" className="projectBanner"/>
+      
       <h2>Gained Experience</h2>
       <p><TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>Agile software development, Scrumban<br/>
       <TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>Completely independent, interdisciplinary teamwork<br/>
@@ -58,7 +60,7 @@ function Project3() { // OBS: double check the class in css
         <h2>Independently Collaborating with Other Disciplines</h2>
         <span>write something quick and summarized here.</span>
         <p className="projectDesc">Talk about meetings.</p>
-        <p className="projectDesc">The goals and objectives... 
+        <p className="projectDesc">The goals and objectives... Something about user involvement. 
           Focus on the local environment and surroundings and be future-oriented. Give the user the option to add 
           locations to their favorites, for easy access and usability. Recommend relevant biking paths for the user, 
           depending on weather and air quality, to motivate and encourage using bicycling as a mode of transportation. 
