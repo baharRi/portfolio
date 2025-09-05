@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.cf9f5838.css",
-    "main.js": "/portfolio/static/js/main.81f71b0e.js",
+    "main.css": "/portfolio/static/css/main.338f1425.css",
+    "main.js": "/portfolio/static/js/main.e8b21efc.js",
     "static/js/453.ad7768ec.chunk.js": "/portfolio/static/js/453.ad7768ec.chunk.js",
+    "static/media/svooshTimelinePic.png": "/portfolio/static/media/svooshTimelinePic.4cfcde45faebf59005fe.png",
     "static/media/sand.jpg": "/portfolio/static/media/sand.85fbc2d81eb844fe630e.jpg",
     "static/media/atomiqBanner.png": "/portfolio/static/media/atomiqBanner.cd5f216c1a523ca5fd2c.png",
     "static/media/svooshBanner.png": "/portfolio/static/media/svooshBanner.5920b0d5c14661f3fea9.png",
     "static/media/atomiqPlanning.png": "/portfolio/static/media/atomiqPlanning.0f7f8b7678143d590596.png",
     "static/media/atomiqWireframe.png": "/portfolio/static/media/atomiqWireframe.68504599d2138a27c89e.png",
-    "static/media/atomiqCoordination.png": "/portfolio/static/media/atomiqCoordination.439f8c8cfecd7f316cd2.png",
+    "static/media/atomiqCoordination.png": "/portfolio/static/media/atomiqCoordination.647d76ab026fecb77e1b.png",
     "static/media/art1.jpg": "/portfolio/static/media/art1.8fcc9258d0fd84758e3a.jpg",
     "static/media/art2.jpg": "/portfolio/static/media/art2.ee3930e25a2cec5c95a6.jpg",
     "static/media/art3.jpg": "/portfolio/static/media/art3.6a0fb621985ccb43c243.jpg",
     "static/media/catGif.gif": "/portfolio/static/media/catGif.4b1152747762394cff4b.gif",
     "static/media/myLogo.svg": "/portfolio/static/media/myLogo.b4259606120cb2e77789b3cc3be00b50.svg",
     "index.html": "/portfolio/index.html",
-    "main.cf9f5838.css.map": "/portfolio/static/css/main.cf9f5838.css.map",
-    "main.81f71b0e.js.map": "/portfolio/static/js/main.81f71b0e.js.map",
+    "main.338f1425.css.map": "/portfolio/static/css/main.338f1425.css.map",
+    "main.e8b21efc.js.map": "/portfolio/static/js/main.e8b21efc.js.map",
     "453.ad7768ec.chunk.js.map": "/portfolio/static/js/453.ad7768ec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf9f5838.css",
-    "static/js/main.81f71b0e.js"
+    "static/css/main.338f1425.css",
+    "static/js/main.e8b21efc.js"
   ]
 }
