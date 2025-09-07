@@ -24,7 +24,7 @@ function Project3() { // OBS: double check the class in css
       <div className="spacer"></div>
 
       <h2>Project Description</h2>
-      <span>Roles: Head of design in Figma and XML implementation, Head of user involvement</span>
+      <span>Roles: Head of design, Head of user involvement</span>
       <p className="projectDesc">In the class of IN2000: Software Engineering, I worked in an interdisciplinary 
         team with other informatics students (developers + designers) to create an application made to guide 
         the people of Oslo on their bicycling journeys throughout the city. The app uses weather APIs from the 
@@ -36,6 +36,9 @@ function Project3() { // OBS: double check the class in css
 
         <h2>The Problem</h2>
         <span>write something quick and summarized here.</span>
+
+        <img src={require("../../../assets/project3/svooshDiagram.png")} alt="project 3 responsibilities" className="projectBanner"/>
+
         <p className="projectDesc">An application for easy access to bicycling paths in Oslo is growing increasingly 
           necessary as more people are engaging in the activity. <br /> 
           Cycling roads are hard to keep track of and few and far between, and often times bikers end up having to 

@@ -8,31 +8,31 @@ function Project1() { // OBS: double check the class in css
     <section className="projectPage">
       <h1>Commission Pricing Calculator</h1>
       <section className="projectInfoGrid">
-        <p><AccessTimeFilledIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }} />n months</p>
+        <p><AccessTimeFilledIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }} />2 weeks</p>
         <p><GroupsIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>individual work</p>
       </section>
+
+      <img src={require("../../../assets/project1/calcBanner.png")} alt="project 1 banner" className="projectBanner"/>
       
       <h2>Gained Experience</h2>
-      <p><TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>idk<br/>
-      <TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>idk<br/>
-      <TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>Grew more comfortable using Git, ReactJS, and Electron<br/>
+      <p><TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>Grew more comfortable using Git, ReactJS, and Electron<br/>
       <TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>Problem-solving for a personal use case</p>
 
       <div className="spacer"></div>
 
       <h2>Project Description</h2>
-      <p className="projectDesc">In the class of IN3010: Transformative Design, with a focus on social sustainability, 
-        my design team partnered with the established core team from AtomIQ to create a 
-        wireframe of the interaction design layer of their upcoming investment app. Contributing 
-        with our creativity as design students, we developed a novel interface layout; attempting 
-        to ease the intimidation of existing crypto currency investment apps, we displayed the 
-        investment companies in the form of cards on a dashboard for the user. This followed our 
-        design model of dividing the often overwhelming experience of crypto investment into smaller 
-        “bite-sized” chunks of informative content, contributing to democratizing the financial 
-        sector through education and empowerment. </p>
+      <p className="projectDesc">In the summer of 2025, I decided to begin an artistic journey I've been wanting 
+        to try for a while; creating digital art to sell through commissions, profiting off my hobby. 
+        As this was quite a novel endeavor for me, I quickly realized I had difficulty in pricing my work in a fair and reasonable way 
+        for both myself and my clients. I decided to utilize my own knowledge and skills to solve this problem in a 
+        personalized way, starting the work on a desktop application to help me calculate these prices.<br /> 
+      </p>
 
         <h2>The Problem</h2>
-        <span>write something quick and summarized here.</span>
+        <span>The difficulty of pricing art.</span>
+
+        <img src={require("../../../assets/project1/calcWireframe.png")} alt="project 1 wireframe" className="projectBanner"/>
+
         <p className="projectDesc">The team of AtomIQ currently do not have designs for their upcoming mobile and desktop platforms. <br /> 
         Start-up tech companies get little funding for big projects that could potentially lead to revolutionary 
         technology for both social and nature sustainability. <br />
@@ -65,6 +65,9 @@ function Project1() { // OBS: double check the class in css
 
         <h2>Project Outcomes</h2>
         <span>write something quick and summarized here.</span>
+
+        <img src={require("../../../assets/project1/calcWidget.png")} alt="project 1 showcase on homescreen" className="projectBanner"/>
+
         <p className="projectDesc">The goals in the long-run are for this interface solution to make the process of investing less 
           intimidating, to encourage financial democracy and equality within society. We hope to give more 
           people who perhaps did not start off with knowledge in the field, a way to explore the topic of 
