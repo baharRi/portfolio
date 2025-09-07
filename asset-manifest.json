@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f33c73d8.css",
-    "main.js": "/portfolio/static/js/main.e2cc4ff0.js",
+    "main.css": "/portfolio/static/css/main.3b3bd189.css",
+    "main.js": "/portfolio/static/js/main.c25580dd.js",
     "static/js/453.ad7768ec.chunk.js": "/portfolio/static/js/453.ad7768ec.chunk.js",
     "static/media/calcBanner.png": "/portfolio/static/media/calcBanner.e5d3024b0c7d3e641dc8.png",
     "static/media/calcWidget.png": "/portfolio/static/media/calcWidget.deb8f6c0aa37fc63b9df.png",
@@ -22,12 +22,12 @@
     "static/media/catGif.gif": "/portfolio/static/media/catGif.4b1152747762394cff4b.gif",
     "static/media/myLogo.svg": "/portfolio/static/media/myLogo.b4259606120cb2e77789b3cc3be00b50.svg",
     "index.html": "/portfolio/index.html",
-    "main.f33c73d8.css.map": "/portfolio/static/css/main.f33c73d8.css.map",
-    "main.e2cc4ff0.js.map": "/portfolio/static/js/main.e2cc4ff0.js.map",
+    "main.3b3bd189.css.map": "/portfolio/static/css/main.3b3bd189.css.map",
+    "main.c25580dd.js.map": "/portfolio/static/js/main.c25580dd.js.map",
     "453.ad7768ec.chunk.js.map": "/portfolio/static/js/453.ad7768ec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f33c73d8.css",
-    "static/js/main.e2cc4ff0.js"
+    "static/css/main.3b3bd189.css",
+    "static/js/main.c25580dd.js"
   ]
 }
