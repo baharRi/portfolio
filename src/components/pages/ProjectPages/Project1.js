@@ -23,8 +23,8 @@ function Project1() { // OBS: double check the class in css
       <h2>Project Description</h2>
       <p className="projectDesc">In the summer of 2025, I decided to begin an artistic journey I've been wanting 
         to try for a while; creating digital art to sell through commissions, profiting off my hobby. 
-        As this was quite a novel endeavor for me, I quickly realized I had difficulty in pricing my work in a fair and reasonable way 
-        for both myself and my clients. I decided to utilize my own knowledge and skills to solve this problem in a 
+        As this was quite a novel endeavor for me, I quickly realized I had difficulty in pricing my work in a fair and 
+        reasonable way for both myself and my clients. I decided to utilize my own skills to solve this problem in a 
         personalized way, starting the work on a desktop application to help me calculate these prices.<br /> 
       </p>
 
@@ -33,38 +33,27 @@ function Project1() { // OBS: double check the class in css
 
         <img src={require("../../../assets/project1/calcWireframe.png")} alt="project 1 wireframe" className="projectBanner"/>
 
-        <p className="projectDesc">The team of AtomIQ currently do not have designs for their upcoming mobile and desktop platforms. <br /> 
-        Start-up tech companies get little funding for big projects that could potentially lead to revolutionary 
-        technology for both social and nature sustainability. <br />
-        Several popular crypto trading apps today use a form of cryptomining that is considered detrimental for 
-        the environment. <br />
-        Based on our findings after qualitative research: Crypto trading apps today are often considered confusing, 
-        overwhelming, and even scary.</p>
+        <p className="projectDesc">
+          <ul> 
+            <li>I currently decide the price of each artwork independently, usually based on an hourly rate.</li>
+            <li>This process has been tedious, and the hourly rate had the unforeseen consequence of rushing me in the creation
+        of my pieces for not wanting to waste time and resources.</li>
+            <li>I want to identify some sets of rules for my art pricing while also automating the process.</li>
+          </ul></p>
 
         <h2>Project Case</h2>
         <div className="projectSpecial">
-          <p>❝To conceptualize a new age stocks and trading platform, which emphasizes democratization, 
-            accessibility and sustainability.❞</p>
+          <p>❝To automate a step of my personal business process, saving time and resources.❞</p>
 
         <div className="spacer"></div>
         
-            <p>❝To democratize and make investment available to everyone and inform about, simplify and 
-              reduce risk as well as promote sustainable investment solutions rather than financial ones.❞</p>
+            <p>❝To guide a framework for my prices, easing communication between myself and clients.❞</p>
         </div>
 
         <div className="noLineSpacer"></div>
 
-        <h2>Company Collaboration</h2>
-        <span>write something quick and summarized here.</span>
-        <p className="projectDesc">Talk about collaborative TCoT, workshops, the mindmap etc. And then a picture.</p>
-        <p className="projectDesc">The goals and objectives... 
-          Find ways to make the interface of a crypto trading app more comprehensible and welcoming. 
-          Find ways to educate and inform new users about typical trading terminology. 
-         Find ways to make the process of investing easier for new users. 
-         Do NOT push the user to make investment decisions; only educate and inform.</p>
-
         <h2>Project Outcomes</h2>
-        <span>write something quick and summarized here.</span>
+        <span>Quick and easy to use, floating calculator.</span>
 
         <img src={require("../../../assets/project1/calcWidget.png")} alt="project 1 showcase on homescreen" className="projectBanner"/>
 

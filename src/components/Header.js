@@ -9,6 +9,7 @@ function Header() { // link projects to home/projects
 const navigate = useNavigate();
 const location = useLocation();
 const [isOpen, setIsOpen] = useState(false);
+const setClose = () => setIsOpen(false);
 
 const handleNavClick = (e, targetId = null) => {
   e.preventDefault();
@@ -42,10 +43,10 @@ const handleNavClick = (e, targetId = null) => {
       {isOpen && <div className="overlay" onClick={() => setIsOpen(false)}></div>}
 
       <nav className= {`navlinks ${isOpen ? "open" : ""}`}>
-        <Link to="/" onClick={(e) => handleNavClick(e)}>Home</Link>
-        <Link to="/#projects" onClick={(e) => handleNavClick(e, "projects")}>Projects</Link>
-        <Link to="/about">About</Link>
-        <Link to="/contact">Contact</Link>
+        <Link to="/" onClick={(e) => { setClose(); handleNavClick(e); }}>Home</Link>
+        <Link to="/#projects" onClick={(e) => { setClose(); handleNavClick(e, "projects"); }}>Projects</Link>
+        <Link to="/about" onClick={() => setClose()}>About</Link>
+        <Link to="/contact" onClick={() => setClose()}>Contact</Link>
       </nav>
     </header>
     </div>

@@ -2,6 +2,7 @@ import React from "react";
 import TrendingUpIcon from '@mui/icons-material/TrendingUp';
 import AccessTimeFilledIcon from '@mui/icons-material/AccessTimeFilled';
 import GroupsIcon from '@mui/icons-material/Groups';
+import PersonIcon from '@mui/icons-material/Person';
 
 function Project3() { // OBS: double check the class in css
   return (
@@ -24,8 +25,10 @@ function Project3() { // OBS: double check the class in css
       <div className="spacer"></div>
 
       <h2>Project Description</h2>
-      <span>Roles: Head of design, Head of user involvement</span>
-      <p className="projectDesc">In the class of IN2000: Software Engineering, I worked in an interdisciplinary 
+      <span>Svoosh: A complete Android application</span>
+      <p className="projectDesc">
+        <p><PersonIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/><strong>My roles: Head of design, Head of user involvement</strong></p>
+        In the class of IN2000: Software Engineering, I worked in an interdisciplinary 
         team with other informatics students (developers + designers) to create an application made to guide 
         the people of Oslo on their bicycling journeys throughout the city. The app uses weather APIs from the 
         Norwegian Meteorological Institute and was created through an agile software development process. <br/>
@@ -35,9 +38,7 @@ function Project3() { // OBS: double check the class in css
         for public transportation.</p>
 
         <h2>The Problem</h2>
-        <span>write something quick and summarized here.</span>
-
-        <img src={require("../../../assets/project3/svooshDiagram.png")} alt="project 3 responsibilities" className="projectBanner"/>
+        <span>Current circumstances make biking a less attractive transportation option in Oslo.</span>
 
         <p className="projectDesc">An application for easy access to bicycling paths in Oslo is growing increasingly 
           necessary as more people are engaging in the activity. <br /> 
@@ -61,9 +62,9 @@ function Project3() { // OBS: double check the class in css
         <div className="noLineSpacer"></div>
 
         <h2>Independently Collaborating with Other Disciplines</h2>
-        <span>write something quick and summarized here.</span>
+        <span>Getting comfortable and establishing teamwork.</span>
 
-        <img src={require("../../../assets/project3/svooshTimelinePic.png")} alt="project 3 timeline" className="projectBanner"/>
+        <img src={require("../../../assets/project3/svooshDiagram.png")} alt="project 3 team responsibilities" className="projectBanner"/>
 
         <p className="projectDesc">Talk about meetings.</p>
         <p className="projectDesc">The goals and objectives... Something about user involvement. 
@@ -72,8 +73,17 @@ function Project3() { // OBS: double check the class in css
           depending on weather and air quality, to motivate and encourage using bicycling as a mode of transportation. 
           Display the weather and air quality in the area to help the user plan their bicylcing days and routes.</p>
 
+        <h2>User Involvement</h2>
+        <span>Surveys, interviews, and testing with user group.</span>
+
+        <img src={require("../../../assets/project3/svooshUsers.png")} alt="project 3 data from user involvement" className="projectBanner"/>
+
+
         <h2>Project Outcomes</h2>
-        <span>write something quick and summarized here.</span>
+        <span>Developed app with the users in focus.</span>
+
+        <img src={require("../../../assets/project3/svooshFinal.png")} alt="project 3 final UI" className="projectBanner"/>
+
         <p className="projectDesc">These objectives are only within the scope of the project timeline. The goal in 
           the long-run is for this application to encourage and help the people of Oslo choose bicycling as a 
           preferred mode of transportation to make Oslo a more sustainable city. We aim to give more planning 

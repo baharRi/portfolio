@@ -1,4 +1,5 @@
 import React from "react";
+import PersonIcon from '@mui/icons-material/Person';
 import TrendingUpIcon from '@mui/icons-material/TrendingUp';
 import AccessTimeFilledIcon from '@mui/icons-material/AccessTimeFilled';
 import GroupsIcon from '@mui/icons-material/Groups';
@@ -8,15 +9,18 @@ function Project2() { // OBS: double check the class in css. make top a grid
     <section className="projectPage">
 
       <h1>AtomIQ: Investment App UI</h1>
+      
       <section className="projectInfoGrid">
         <p><AccessTimeFilledIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }} />4 months</p>
         <p><GroupsIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>collaborative groupwork</p>
       </section>
 
+
       <img src={require("../../../assets/project2/atomiqBanner.png")} alt="project 2 banner" className="projectBanner"/>
       
       <h2>Gained Experience</h2>
-      <p><TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>Methodology: Transformative Design <br/>
+      <p>
+      <TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>Methodology: Transformative Design <br/>
       <TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>Methods: future scenarios, experimental design, Tarot Cards of Tech <br/>
       <TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>Grew highly comfortable using Figma <br/>
       <TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>Cooperating with an established start-up team</p>
@@ -24,8 +28,10 @@ function Project2() { // OBS: double check the class in css. make top a grid
       <div className="spacer"></div>
 
       <h2>Project Description</h2>
-      <span>Roles: Head of Figma prototyping</span>
-      <p className="projectDesc">In the class of <strong>IN3010: Transformative Design</strong>, with a focus on social 
+      <span>Sustainable Development of Investment App UI</span>
+      <p className="projectDesc">
+        <p><PersonIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/><strong>My role: Head of Figma prototyping</strong></p>
+        In the class of IN3010: Transformative Design, with a focus on social 
         sustainability, my design team partnered with the established core team from AtomIQ to create 
         the interaction design layer of their upcoming investment app. Contributing 
         with our creativity as design students, we developed a novel interface layout to compliment their novel technology. Attempting 
@@ -40,13 +46,16 @@ function Project2() { // OBS: double check the class in css. make top a grid
 
         <img src={require("../../../assets/project2/atomiqPlanning.png")} alt="project 2 banner" className="projectBanner"/>
 
-        <p className="projectDesc">The team of AtomIQ currently do not have designs for their upcoming mobile and desktop platforms. <br /> 
-        Start-up tech companies get little funding for big projects that could potentially lead to revolutionary 
-        technology for both social and nature sustainability. <br />
-        Several popular crypto trading apps today use a form of cryptomining that is considered detrimental for 
-        the environment. <br />
-        Based on our findings after qualitative research: Crypto trading apps today are often considered confusing, 
-        overwhelming, and even scary. <br />
+        <p className="projectDesc">
+          <ul>
+          <li>The team of AtomIQ currently do not have designs for their upcoming mobile and desktop platforms.</li> 
+          <li>Start-up tech companies get little funding for big projects that could potentially lead to revolutionary 
+          technology for both social and nature sustainability.</li>
+          <li>Several popular crypto trading apps today use a form of cryptomining that is considered detrimental for 
+          the environment.</li>
+          <li>Based on our findings after qualitative research: Crypto trading apps today are often considered confusing, 
+          overwhelming, and even scary.</li>
+          </ul>
         <span>The scope of our project was to design the interaction layer of the AtomIQ mobile app exclusively.</span></p>
 
         <h2>Project Case</h2>
@@ -63,9 +72,9 @@ function Project2() { // OBS: double check the class in css. make top a grid
         <div className="noLineSpacer"></div>
 
         <h2>Company Collaboration</h2>
-        <span>Weekly meetings and numerous workshops with the core team.</span>
+        <span>Weekly meetings and numerous workshops with the core AtomIQ team.</span>
 
-        <img src={require("../../../assets/project2/atomiqCoordination.png")} alt="project 2 banner" className="projectBanner"/>
+        <img src={require("../../../assets/project2/atomiqCoordination.png")} alt="project 2 gigamap from meetings" className="projectBanner"/>
 
         <p className="projectDesc">Our design team sat in on numerous meetings with the core team of AtomIQ to 
           discuss their visions for the project. Additionally, we had multiple workshops with the team in order to map 
@@ -77,9 +86,9 @@ function Project2() { // OBS: double check the class in css. make top a grid
          Do NOT push the user to make investment decisions; only educate and inform.</p>
 
         <h2>Project Outcomes</h2>
-        <span>write something quick and summarized here.</span>
+        <span>Simple UI combined with novel technology.</span>
 
-        <img src={require("../../../assets/project2/atomiqWireframe.png")} alt="project 2 banner" className="projectBanner"/>
+        <img src={require("../../../assets/project2/atomiqWireframe.png")} alt="project 2 UI wireframe" className="projectBanner"/>
 
         <p className="projectDesc">The goals in the long-run are for this interface solution to make the process of investing less 
           intimidating, to encourage financial democracy and equality within society. We hope to give more 
