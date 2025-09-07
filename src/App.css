@@ -80,7 +80,6 @@ body {
     background-size: auto 100%;
     background-repeat: no-repeat;
   }
-  
 }
 
 button {
@@ -185,7 +184,6 @@ button:hover {
     padding: 1rem;
     display: none; 
     gap: 1rem;
-    background: #2c2c2c;
     z-index: 40;
   }
   .navlinks.open {
@@ -390,6 +388,18 @@ li {
   }
 }
 
+.backLink {
+  padding: 3rem;
+}
+
+@media (max-width: 768px) {
+  .backLinkContainer {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  }
+}
+
 /* About */
 
 .aboutIntro {
@@ -514,6 +524,22 @@ li {
   display: flex;
   justify-content: center;
   gap: 2rem;
+}
+
+.artGridContainer{
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.phoneText {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .phoneText {
+    display: block;
+  }
 }
 
 .art-grid {

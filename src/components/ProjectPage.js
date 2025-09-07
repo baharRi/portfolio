@@ -5,6 +5,8 @@ import Project3 from "./pages/ProjectPages/Project3";
 import Project4 from "./pages/ProjectPages/Project4";
 import Project5 from "./pages/ProjectPages/Project5";
 
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+
 function ProjectPage() {
   const { id } = useParams();
 
@@ -43,9 +45,11 @@ function ProjectPage() {
         <p>Project not found.</p>
       )}
 
-      <button><Link to="/#projects" className="back-link">
-        ← Back to projects
-      </Link></button>
+      <div className="backLinkContainer">
+      <Link to="/" className="backLink"><button> <ArrowBackIcon fontSize="small" style={{ verticalAlign: 'middle'}} /> Back to projects</button>
+      
+      </Link>
+      </div>
     </div>
   );
 }

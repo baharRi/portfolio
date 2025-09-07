@@ -73,11 +73,14 @@ function Project1() { // OBS: double check the class in css
           I have been painting both traditionally and digitally for several years, and I find that it is a 
           great way to relax and express my creativity. Below are some examples of my artwork, for the curious and interested.<br />
           Strike up a conversation about my work!</p>
+          <div className="artGridContainer">
         <div className="art-grid">
           <img src={require("../../../assets/art1.jpg")} alt="art1" />
           <img src={require("../../../assets/art2.jpg")} alt="art2" />
           <img src={require("../../../assets/art3.jpg")} alt="art3" />
         </div>
+        </div>
+        <p className="phoneText">tap for color!</p>
     </section>
   );
 }

@@ -33,7 +33,7 @@ const handleNavClick = (e, targetId = null) => {
   return (
     <div className="headerDiv">
     <header className="header">
-      <img src={logo} alt="Logo" className="logo" />
+      <Link to="/" onClick={(e) => { setClose(); handleNavClick(e); }}><img src={logo} alt="Logo" className="logo"/></Link>
 
       {/*hamburger menu for mobile*/}
 
