@@ -26,7 +26,7 @@ function Project3() { // OBS: double check the class in css
 
       <h2>Project Description</h2>
       <span>Svoosh: A complete Android application</span>
-      <p className="projectDesc">
+      <p className="desc">
         <p><PersonIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/><strong>My roles: Head of design, Head of user involvement</strong></p>
         In the class of IN2000: Software Engineering, I worked in an interdisciplinary 
         team with other informatics students (developers + designers) to create an application made to guide 
@@ -40,7 +40,7 @@ function Project3() { // OBS: double check the class in css
         <h2>The Problem</h2>
         <span>Current circumstances make biking a less attractive transportation option in Oslo.</span>
 
-        <p className="projectDesc">An application for easy access to bicycling paths in Oslo is growing increasingly 
+        <p className="desc">An application for easy access to bicycling paths in Oslo is growing increasingly 
           necessary as more people are engaging in the activity. <br /> 
           Cycling roads are hard to keep track of and few and far between, and often times bikers end up having to 
           cycle on the road, next to dangerous traffic. <br />
@@ -64,10 +64,10 @@ function Project3() { // OBS: double check the class in css
         <h2>Independently Collaborating with Other Disciplines</h2>
         <span>Getting comfortable and establishing teamwork.</span>
 
-        <img src={require("../../../assets/project3/svooshDiagram.png")} alt="project 3 team responsibilities" className="projectBanner"/>
+        <img src={require("../../../assets/project3/svooshDiagram.png")} alt="project 3 team responsibilities" className="projectImg"/>
 
-        <p className="projectDesc">Talk about meetings.</p>
-        <p className="projectDesc">The goals and objectives... Something about user involvement. 
+        <p className="desc">Talk about meetings.</p>
+        <p className="desc">The goals and objectives... Something about user involvement. 
           Focus on the local environment and surroundings and be future-oriented. Give the user the option to add 
           locations to their favorites, for easy access and usability. Recommend relevant biking paths for the user, 
           depending on weather and air quality, to motivate and encourage using bicycling as a mode of transportation. 
@@ -76,15 +76,15 @@ function Project3() { // OBS: double check the class in css
         <h2>User Involvement</h2>
         <span>Surveys, interviews, and testing with user group.</span>
 
-        <img src={require("../../../assets/project3/svooshUsers.png")} alt="project 3 data from user involvement" className="projectBanner"/>
+        <img src={require("../../../assets/project3/svooshUsers.png")} alt="project 3 data from user involvement" className="projectImg"/>
 
 
         <h2>Project Outcomes</h2>
         <span>Developed app with the users in focus.</span>
 
-        <img src={require("../../../assets/project3/svooshFinal.png")} alt="project 3 final UI" className="projectBanner"/>
+        <img src={require("../../../assets/project3/svooshFinal.png")} alt="project 3 final UI" className="projectImg"/>
 
-        <p className="projectDesc">These objectives are only within the scope of the project timeline. The goal in 
+        <p className="desc">These objectives are only within the scope of the project timeline. The goal in 
           the long-run is for this application to encourage and help the people of Oslo choose bicycling as a 
           preferred mode of transportation to make Oslo a more sustainable city. We aim to give more planning 
           opportunities for the people interested in bicycling in Oslo, to make it into a more enjoyable experience, 

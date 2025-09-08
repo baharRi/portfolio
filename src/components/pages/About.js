@@ -38,7 +38,7 @@ function About() { //make css class for intro, skillsEtc for skills. add button 
 
        <h2>Background</h2>
 
-      <p>
+      <p className="desc">
         Before pursuing both a bachelor's and master's degree in Information Science at the University of Oslo, 
         I studied the visual arts for 3 years following a lifelong personal interest. Additionally, I spent 
         majority of my younger years fascinated by technology and all the activities it mediates. 
@@ -49,7 +49,7 @@ function About() { //make css class for intro, skillsEtc for skills. add button 
 
       <h2>Motivations & Focus</h2>
 
-      <p>
+      <p className="desc">
         I am eager to collaborate with teams of fellow designers as well
         as developers and other disciplines in order to craft technology 
         that serves as a tool for empowerment and helpfulness. My areas of 

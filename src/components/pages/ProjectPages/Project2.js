@@ -29,7 +29,7 @@ function Project2() { // OBS: double check the class in css. make top a grid
 
       <h2>Project Description</h2>
       <span>Sustainable Development of Investment App UI</span>
-      <p className="projectDesc">
+      <p className="desc">
         <p><PersonIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/><strong>My role: Head of Figma prototyping</strong></p>
         In the class of IN3010: Transformative Design, with a focus on social 
         sustainability, my design team partnered with the established core team from AtomIQ to create 
@@ -46,16 +46,15 @@ function Project2() { // OBS: double check the class in css. make top a grid
 
         <img src={require("../../../assets/project2/atomiqPlanning.png")} alt="project 2 banner" className="projectBanner"/>
 
-        <p className="projectDesc">
-          <ul>
-          <li>The team of AtomIQ currently do not have designs for their upcoming mobile and desktop platforms.</li> 
-          <li>Start-up tech companies get little funding for big projects that could potentially lead to revolutionary 
-          technology for both social and nature sustainability.</li>
-          <li>Several popular crypto trading apps today use a form of cryptomining that is considered detrimental for 
-          the environment.</li>
-          <li>Based on our findings after qualitative research: Crypto trading apps today are often considered confusing, 
-          overwhelming, and even scary.</li>
-          </ul>
+        <p className="desc">
+          The team of AtomIQ currently do not have designs for their upcoming mobile and desktop platforms.
+          Start-up tech companies get little funding for big projects that could potentially lead to revolutionary 
+          technology for both social and nature sustainability.
+          Several popular crypto trading apps today use a form of cryptomining that is considered detrimental for 
+          the environment.
+          Based on our findings after qualitative research: Crypto trading apps today are often considered confusing, 
+          overwhelming, and even scary.
+          
         <span>The scope of our project was to design the interaction layer of the AtomIQ mobile app exclusively.</span></p>
 
         <h2>Project Case</h2>
@@ -74,9 +73,9 @@ function Project2() { // OBS: double check the class in css. make top a grid
         <h2>Company Collaboration</h2>
         <span>Weekly meetings and numerous workshops with the core AtomIQ team.</span>
 
-        <img src={require("../../../assets/project2/atomiqCoordination.png")} alt="project 2 gigamap from meetings" className="projectBanner"/>
+        <img src={require("../../../assets/project2/atomiqCoordination.png")} alt="project 2 gigamap from meetings" className="projectImg"/>
 
-        <p className="projectDesc">Our design team sat in on numerous meetings with the core team of AtomIQ to 
+        <p className="desc">Our design team sat in on numerous meetings with the core team of AtomIQ to 
           discuss their visions for the project. Additionally, we had multiple workshops with the team in order to map 
           issues such as stakeholders, trends, and values for the application. This resulted in the collaborative generation
           of a <strong>gigamap</strong> as presented over (blurred for non-disclosure). <br/>
@@ -88,9 +87,9 @@ function Project2() { // OBS: double check the class in css. make top a grid
         <h2>Project Outcomes</h2>
         <span>Simple UI combined with novel technology.</span>
 
-        <img src={require("../../../assets/project2/atomiqWireframe.png")} alt="project 2 UI wireframe" className="projectBanner"/>
+        <img src={require("../../../assets/project2/atomiqWireframe.png")} alt="project 2 UI wireframe" className="projectImg"/>
 
-        <p className="projectDesc">The goals in the long-run are for this interface solution to make the process of investing less 
+        <p className="desc">The goals in the long-run are for this interface solution to make the process of investing less 
           intimidating, to encourage financial democracy and equality within society. We hope to give more 
           people who perhaps did not start off with knowledge in the field, a way to explore the topic of 
           crypto investment and make their own decisions after gaining more knowledge. Following this, 

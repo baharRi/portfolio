@@ -21,17 +21,17 @@ function Project5() { // OBS: double check the class in css
 
       <img src={require("../../../assets/project5/pwc-notes.png")} alt="project 5 notes" className="projectBanner"/>
 
-        <p className="projectDesc">In January of 2025, I attended an educational experience 
+        <p className="desc">In January of 2025, I attended an educational experience 
           hosted by PwC, bringing together design students from various universities 
           to collaborate with the professionals of their design team with a real case for one of 
           their clients Ruter AS. Through this experience I gained insight into a professional 
           design process under real circumstances, and learned first-hand from professionals in the field.</p>
 
-        <p className="projectDesc">An overarching goal of contribution for this research is to 
+        <p className="desc">An overarching goal of contribution for this research is to 
           maintain social sustainability through democracy and enabled through their right of 
           proper information to the users of social media platforms.</p>
 
-        <p className="projectDesc">I gathered invaluable insight into value creation and usability, prototyping, 
+        <p className="desc">I gathered invaluable insight into value creation and usability, prototyping, 
           speculating in service design from professionals at the forefront of service design development.</p>
 
         <h2>The Problem</h2>
@@ -40,7 +40,7 @@ function Project5() { // OBS: double check the class in css
         <h2>Project Outcomes</h2>
         <span>write something quick and summarized here.</span>
 
-        <p className="projectDesc">I gathered invaluable insight into value creation and usability, prototyping, 
+        <p className="desc">I gathered invaluable insight into value creation and usability, prototyping, 
           speculating in service design from professionals at the forefront of service design development.</p>
 
     </section>
