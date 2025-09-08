@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import GitHubIcon from '@mui/icons-material/GitHub';
 
 function Projects() { /* focus on UX/UI for project2, focus on process, teamwork, and results for project3 */
+
   return (
     <>
     <section id="projects" className="projects">
@@ -31,7 +32,7 @@ function Projects() { /* focus on UX/UI for project2, focus on process, teamwork
         <Link to="/project/5" className="project" style={{ textDecoration: 'none' }}>
           <h3>PwC Design Explore</h3>
           <p>
-            A design workshop at PwC, focusing on transformative design to solve a real case 
+            A design workshop at PwC, focusing on speculative design to solve a real case 
             for the client Ruter AS. 
           </p>
         </Link>

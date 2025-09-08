@@ -89,13 +89,7 @@ function About() { //make css class for intro, skillsEtc for skills. add button 
         <span className="skill soft">Adobe XD</span> 
         </div>
         </div>
-
-      <h3>Certifications →</h3>
-      <div className ="skillsWrapper">
-      <div className ="skills">
-        </div>
-        </div>
-
+        
     </section>
     <section className="aboutIntro"> 
       <button id="resume" type="button"><a href="../assets/Bahar_CV.pdf" download="Bahar_CV">Download my resume <DownloadIcon fontSize="small" style={{ verticalAlign: 'middle', marginLeft: 8 }} /></a></button>

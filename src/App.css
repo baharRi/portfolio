@@ -133,7 +133,7 @@ button:hover {
   width: 100%;
   top: 0;
   background: #777777;
-   z-index: 1000;
+  z-index: 1000;
 }
 
 .header {
@@ -191,15 +191,16 @@ button:hover {
   }
 }
 
-/*
 .overlay {
   position: fixed;
   bottom: 0;
+  top: 0;
+  left: 0;
   width: 100vw;
   height: 100vh;
   background: rgba(0, 0, 0, 0.5);
-  z-index: 30; /* less than header but more than other content 
-}*/
+  z-index: 20; /* less than header but more than other content */
+}
 
 .header nav a {
   margin-left: 1.5rem;
@@ -226,6 +227,10 @@ a {
 }
 
 .header nav a:hover::after {
+  width: 100%;
+}
+
+.header nav a.active::after {
   width: 100%;
 }
 

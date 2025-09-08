@@ -1,4 +1,4 @@
-import { useParams, Link } from "react-router-dom";
+import { useParams, Link, useLocation, useNavigate } from "react-router-dom";
 import Project1 from "./pages/ProjectPages/Project1";
 import Project2 from "./pages/ProjectPages/Project2";
 import Project3 from "./pages/ProjectPages/Project3";
@@ -7,7 +7,28 @@ import Project5 from "./pages/ProjectPages/Project5";
 
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
-function ProjectPage() {
+function ProjectPage() { //clean this up
+  const navigate = useNavigate();
+const location = useLocation();
+
+const handleNavClick = (e, targetId = null) => {
+  e.preventDefault();
+
+  const scrollToTarget = () => {
+    if (targetId) {
+      document.getElementById(targetId)?.scrollIntoView({ behavior: "smooth" });
+    } else {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  };
+
+  if (location.pathname !== "/") {
+    navigate("/");
+    setTimeout(scrollToTarget, 100); // wait for home to render
+  } else {
+    scrollToTarget();
+  }
+};
   const { id } = useParams();
 
   const projects = {
@@ -46,7 +67,7 @@ function ProjectPage() {
       )}
 
       <div className="backLinkContainer">
-      <Link to="/" className="backLink"><button> <ArrowBackIcon fontSize="small" style={{ verticalAlign: 'middle'}} /> Back to projects</button>
+      <Link to="/" className="backLink" onClick={(e) => {handleNavClick(e, "projects"); }}><button> <ArrowBackIcon fontSize="small" style={{ verticalAlign: 'middle'}} /> Back to projects</button>
       
       </Link>
       </div>

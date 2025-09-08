@@ -21,7 +21,6 @@ function Project5() { // OBS: double check the class in css
 
       <img src={require("../../../assets/project5/pwc-notes.png")} alt="project 5 notes" className="projectBanner"/>
 
-
         <p className="projectDesc">In January of 2025, I attended an educational experience 
           hosted by PwC, bringing together design students from various universities 
           to collaborate with the professionals of their design team with a real case for one of 
