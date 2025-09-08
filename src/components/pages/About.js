@@ -18,6 +18,7 @@ function About() { //make css class for intro, skillsEtc for skills. add button 
     <>
    
     <section className="aboutIntro">
+      <div className="noLineSpacer" />
       <p>
         「A UX and front-end enthusiast motivated to blend elements of design and tech — working to make a change in online experiences.」
       </p>

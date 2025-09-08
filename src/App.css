@@ -438,12 +438,31 @@ li {
 
 .aboutBox {
   display: flex;
+  width: 100%;
   justify-content: space-between;
   align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .aboutBox {
+    padding: 2rem 1rem;
+    font-size: 1.2rem;  
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.likes {
+  padding: 1rem;
+  max-width: 1000px;
+  font-size: 1rem;
+  color: #fff;
+  height: 6rem;
 }
 
 .aboutBox img {
-  margin: 2rem 2rem;
   filter: grayscale(100%);
 }
 
@@ -470,15 +489,6 @@ li {
   color: #fff;
   text-shadow: 0px 0px 5px #c2c2c2;
   font-weight: 200;
-}
-
-.likes {
-  padding: 2rem 2rem;
-  max-width: 1000px;
-  text-align: center;
-  margin-bottom: 2rem;
-  font-size: 1rem;
-  color: #fff;
 }
 
 .skillsWrapper {
