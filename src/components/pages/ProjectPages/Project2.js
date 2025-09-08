@@ -8,11 +8,11 @@ function Project2() { // OBS: double check the class in css. make top a grid
   return (
     <section className="projectPage">
 
-      <h1>AtomIQ: Investment App UI</h1>
+      <h1>AtomIQ: Making crypto trading accessible for first-time investors</h1>
       
       <section className="projectInfoGrid">
-        <p><AccessTimeFilledIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }} />4 months</p>
-        <p><GroupsIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>collaborative groupwork</p>
+        <p><AccessTimeFilledIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }} /><br />4 months</p>
+        <p><GroupsIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/><br />groupwork</p>
       </section>
 
 
@@ -42,9 +42,9 @@ function Project2() { // OBS: double check the class in css. make top a grid
         sector through education and empowerment.</p>
 
         <h2>The Problem</h2>
-        <span>Current solutions are overwhelming.</span>
+        <span>Steep learning curves and intimidating layouts make crypto trading too complex for first-time investors.</span>
 
-        <img src={require("../../../assets/project2/atomiqPlanning.png")} alt="project 2 banner" className="projectBanner"/>
+        <img src={require("../../../assets/project2/atomiqPlanning.png")} alt="project 2 banner" className="projectImg"/>
 
         <p className="desc">
           The team of AtomIQ currently do not have designs for their upcoming mobile and desktop platforms.

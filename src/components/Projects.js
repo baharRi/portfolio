@@ -44,7 +44,7 @@ function Projects() { /* focus on UX/UI for project2, focus on process, teamwork
       <h2>Master's Project and Research</h2>
       <div className="project-grid">
         <Link to="/project/4" className="project" style={{ textDecoration: 'none' }}>
-          <h3>Mitigating False Information on Social Media</h3>
+          <h3>Designing Against False Information on Social Media</h3>
           <p>
             Research conducted for my master's thesis, focusing on media literacy and
             technological democratization.

@@ -9,17 +9,17 @@ function Project5() { // OBS: double check the class in css
       <h1>PwC: Design Explore Experience</h1>
 
       <section className="projectInfoGrid">
-        <p><AccessTimeFilledIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }} />high intensity, 2 days</p>
-        <p><GroupsIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>collaborative groupwork</p>
+        <p><AccessTimeFilledIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }} /><br />intensive 2 days</p>
+        <p><GroupsIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/><br />groupwork</p>
       </section>
+
+      <img src={require("../../../assets/project5/pwc-notes.png")} alt="project 5 notes" className="projectBanner"/>  
       
       <h2>Gained Experience</h2>
       <p><TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>Methodology: Speculative service design<br/>
       <TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>Methods: Evidencing, future scenarios<br/>
       <TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>Direct collaboration with professionals<br/>
       <TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>Working in a fast-paced sprint</p>
-
-      <img src={require("../../../assets/project5/pwc-notes.png")} alt="project 5 notes" className="projectBanner"/>
 
         <p className="desc">In January of 2025, I attended an educational experience 
           hosted by PwC, bringing together design students from various universities 

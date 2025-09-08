@@ -8,10 +8,10 @@ function Project3() { // OBS: double check the class in css
   return (
     <section className="projectPage">
 
-      <h1>Svoosh: Complete Android Application</h1>
+      <h1>Svoosh: Turning urban cycling into a first-choice commute</h1>
       <section className="projectInfoGrid">
-        <p><AccessTimeFilledIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }} />Intensive, 3 months</p>
-        <p><GroupsIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>interdisciplinary teamwork</p>
+        <p><AccessTimeFilledIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }} /><br />intensive 3 months</p>
+        <p><GroupsIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/><br />interdisciplinary team</p>
       </section>
       
       <img src={require("../../../assets/project3/svooshBanner.png")} alt="project 3 banner" className="projectBanner"/>
@@ -38,7 +38,7 @@ function Project3() { // OBS: double check the class in css
         for public transportation.</p>
 
         <h2>The Problem</h2>
-        <span>Current circumstances make biking a less attractive transportation option in Oslo.</span>
+        <span>Over 70% of Oslo bikers mention moderate to high traffic in their routes, impacting the experience.</span>
 
         <p className="desc">An application for easy access to bicycling paths in Oslo is growing increasingly 
           necessary as more people are engaging in the activity. <br /> 
@@ -91,7 +91,8 @@ function Project3() { // OBS: double check the class in css
           and continue to motivate bicycling as a healthy personal habit.</p>
 
         <div className="projectSpecial">
-          <p>❝I built something something.❞</p>
+          <p>❝Encourages sustainable transportation by helping cyclists plan safer, faster routes; reducing reliance on 
+            cars in the green city of Oslo.❞</p>
         </div>
     </section>
   );

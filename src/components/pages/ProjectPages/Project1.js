@@ -8,8 +8,8 @@ function Project1() { // OBS: double check the class in css
     <section className="projectPage">
       <h1>Commission Pricing Calculator</h1>
       <section className="projectInfoGrid">
-        <p><AccessTimeFilledIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }} />2 weeks</p>
-        <p><GroupsIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>individual work</p>
+        <p><AccessTimeFilledIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }} /><br />2 weeks</p>
+        <p><GroupsIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/><br />individual work</p>
       </section>
 
       <img src={require("../../../assets/project1/calcBanner.png")} alt="project 1 banner" className="projectBanner"/>
@@ -23,7 +23,7 @@ function Project1() { // OBS: double check the class in css
       <h2>Project Description</h2>
       <span>Tackling a personal hindrance.</span>
       <p className="desc">In the summer of 2025, I decided to begin an artistic journey I've been wanting 
-        to try for a while; creating digital art to sell through commissions, profiting off my hobby. 
+        to try for a while; creating digital art to sell through commissions, profiting from a hobby. 
         As this was quite a novel endeavor for me, I quickly realized I had difficulty in pricing my work in a fair and 
         reasonable way for both myself and my clients. I decided to utilize my own skills to solve this problem in a 
         personalized way, starting the work on a desktop application to help me calculate these prices.<br /> 
@@ -60,20 +60,23 @@ function Project1() { // OBS: double check the class in css
         <div className="noLineSpacer"></div>
 
         <h2>Project Outcomes</h2>
-        <span>A quick and easy to use, floating calculator - cutting in half the time spent on planning commissions.</span>
+        <span>A quick and easy to use, floating calculator.</span>
 
         <img src={require("../../../assets/project1/calcWidget.png")} alt="project 1 showcase on homescreen" className="projectImg"/>
 
-        <p className="desc">The goals in the long-run are for this interface solution to make the process of investing less 
-          intimidating, to encourage financial democracy and equality within society. We hope to give more 
-          people who perhaps did not start off with knowledge in the field, a way to explore the topic of 
-          crypto investment and make their own decisions after gaining more knowledge. Following this, 
-          start-up tech companies may find more investment opportunities, and it can lead to a future with 
-          more opportunities for technology advancement.</p>
-
         <div className="projectSpecial">
-          <p>❝Cutting in half the time spent on planning commissions.❞</p>
+          <p>❝Automating a personal obstacle, cutting in half the time spent on planning commissions.❞</p>
         </div>
+
+        <p className="desc">The application opens in a floating window to allow for other views simultaneously, seamlessly integrating
+          with the rest of my desktop workspace. 
+          When beginning the planning phase of a new commission, input information about the commission; 
+          the amount of characters involved, the complexity of the background (simple - 
+          medium - detailed), and the overall rendering style (sketch - flat colors - full rendering).
+           The combination of these specifications 
+          then gets calculated on the click of a button, automating price estimation for commissions.</p>
+
+        
 
         <h2>Personal art projects – for context and interest only</h2>
         <p className="desc">Alongside my passion for design and tech, I have a strong interest in the visual arts.

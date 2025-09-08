@@ -79,7 +79,7 @@ body {
   body {
     background-size: auto 100%;
     background-repeat: no-repeat;
-    width: 100%;
+    right: 0;
   }
 }
 
@@ -119,15 +119,6 @@ button:hover {
   transform: translateY(-4px);
 }
 
-/*body::before{
-  background-size: cover;
-  position: absolute;
-  background-image: url(assets/1D7F8A.png);
-  opacity: 0.5;
-  top: 0;
-  z-index: -1;
-}*/
-
 /* Header */
 .headerDiv {
   position: sticky;
@@ -141,7 +132,7 @@ button:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem 3rem;
+  padding: 1rem 3rem;
   border: 1px solid rgba(255, 255, 255, 0.3);
   background: radial-gradient(
     circle,
@@ -153,8 +144,14 @@ button:hover {
 }
 
 .logo {
-  height: 60px;
+  height: 4rem;
   filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.5));
+}
+
+@media (max-width: 768px) {
+  .logo {
+    height: 3rem;
+  }
 }
 
 .hamburger {
@@ -315,9 +312,10 @@ li {
 .projectInfoGrid {
   display: flex;
   justify-content: space-around;
-    font-size: clamp(1rem, -1.5rem + 6vw, 1.2rem);
+  font-size: clamp(1rem, -1.5rem + 6vw, 1.2rem);
   font-weight: 500;
   padding: 2rem;
+  text-align: center;
 }
 
 .projectBanner {
