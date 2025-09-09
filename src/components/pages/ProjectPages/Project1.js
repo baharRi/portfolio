@@ -95,6 +95,7 @@ function Project1() { // OBS: double check the class in css
           <img src={require("../../../assets/art3.jpg")} alt="art3" />
         </div>
         </div>
+        <p className="phoneText">scroll →</p>
     </section>
   );
 }

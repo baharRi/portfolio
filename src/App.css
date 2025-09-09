@@ -569,6 +569,16 @@ li {
   transform: scale(1.05) translateY(-4px);
 }
 
+.phoneText {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .phoneText {
+    display: block;
+  }
+}
+
 /* Footer */
 .footer {
   text-align: center;
