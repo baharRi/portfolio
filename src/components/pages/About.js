@@ -50,11 +50,9 @@ function About() { //make css class for intro, skillsEtc for skills. add button 
       <h2>Motivations & Focus</h2>
 
       <p className="desc">
-        I am eager to collaborate with teams of fellow designers as well
-        as developers and other disciplines in order to craft technology 
-        that serves as a tool for empowerment and helpfulness. My areas of 
-        interest are <strong> interaction design & digitalization</strong>. 
-        I see value in details, and I am highly driven to reach my own high 
+        I'm passionate about collaborating across disciplines as I deeply appreciate understanding multiple 
+        perspectives in order to create technology that empowers people and adds real value to their lives. My main interests 
+        are in interaction design and digitalization. I see value in details, and I am highly driven to reach my own high 
         expectations with every project I take on.
       </p>
 
