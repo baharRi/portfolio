@@ -88,6 +88,8 @@ function Project3() { // OBS: double check the class in css
           <li>2 in-depth interviews: <br /> refined our priorities and clarified pain points</li>
           <li>Usability testing: <br /> final validation of the high-fidelity prototype before tweaks and submission</li>
         </ul>
+        
+        <div className="nolineSpacer" />
 
         <h2>Project Outcomes</h2>
         <span>A user-centered biking app to promote sustainable transportation.</span>

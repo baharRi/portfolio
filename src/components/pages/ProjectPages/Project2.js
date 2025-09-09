@@ -81,6 +81,8 @@ function Project2() { // OBS: double check the class in css. make top a grid
             <li>Support financial decision-making through transparency, not pressure</li>
           </ul>
 
+          <div className="nolineSpacer" />
+
         <h2>Project Outcomes</h2>
         <span>Simple UI combined with novel technology.</span>
 
