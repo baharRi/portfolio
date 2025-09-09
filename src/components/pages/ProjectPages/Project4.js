@@ -12,9 +12,10 @@ function Project4() { // OBS: double check the class in css
           Experience of Online False Information❞</p>
       </div>
 
+      <div className="noLineSpacer" />
+
       <h2>Project Description</h2>
-      <span>A Phenomenological Perspective on Encounters with False Information through Sense-making, 
-        Social Interactions, and Media Literacy</span>
+      <span>A Phenomenological Perspective</span>
       
       <p className="desc">With my focus on encouraging sustainability and justice through 
       technology, my academic research aims to tackle the issue of false information (i.e. mis- 
