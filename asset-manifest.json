@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.66698ff8.css",
-    "main.js": "/portfolio/static/js/main.123b727b.js",
+    "main.js": "/portfolio/static/js/main.83b31468.js",
     "static/js/453.ad7768ec.chunk.js": "/portfolio/static/js/453.ad7768ec.chunk.js",
     "static/media/calcBanner.png": "/portfolio/static/media/calcBanner.e5d3024b0c7d3e641dc8.png",
     "static/media/calcWidget.png": "/portfolio/static/media/calcWidget.deb8f6c0aa37fc63b9df.png",
@@ -20,14 +20,14 @@
     "static/media/art3.jpg": "/portfolio/static/media/art3.6a0fb621985ccb43c243.jpg",
     "static/media/pwc-notes.png": "/portfolio/static/media/pwc-notes.81fe5e65bae58f68748f.png",
     "static/media/catGif.gif": "/portfolio/static/media/catGif.4b1152747762394cff4b.gif",
-    "static/media/myLogo.svg": "/portfolio/static/media/myLogo.b8c54a76f384d6f2932307b1ba2b56d5.svg",
+    "static/media/myLogo.svg": "/portfolio/static/media/myLogo.b4259606120cb2e77789b3cc3be00b50.svg",
     "index.html": "/portfolio/index.html",
     "main.66698ff8.css.map": "/portfolio/static/css/main.66698ff8.css.map",
-    "main.123b727b.js.map": "/portfolio/static/js/main.123b727b.js.map",
+    "main.83b31468.js.map": "/portfolio/static/js/main.83b31468.js.map",
     "453.ad7768ec.chunk.js.map": "/portfolio/static/js/453.ad7768ec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.66698ff8.css",
-    "static/js/main.123b727b.js"
+    "static/js/main.83b31468.js"
   ]
 }
