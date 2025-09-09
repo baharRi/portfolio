@@ -45,14 +45,14 @@ function Project4() { // OBS: double check the class in css
         focus on the experience of encountering false information on social media. Understanding these experiences 
         is essential for supporting media literacy and fostering technological democratization, grounded in real circumstances.
         For handling this issue, discerning design implications with a focus on promoting media literacy provides a step 
-        towards this democratization, attempting to mitigate the harmful effects of false information. 
-        I present the following design implications in my thesis:
+        towards this democratization, attempting to mitigate the harmful effects of false information.
+        I present the following design implications in my thesis:</p>
       <ul>
         <li>Design for experiences: make them salient</li>
         <li>Facilitate sense-making processes online</li>
         <li>Integrate spatial separation and situational awareness</li>
       </ul>
-      A published article detailing the work of this thesis is underway, and will be available to read on this page.</p>
+      <p className="desc">A published article detailing the work of this thesis is underway, and will be available to read on this page.</p>
 </section>
 
 <section className="projects">

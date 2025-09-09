@@ -271,6 +271,12 @@ ul {
   list-style-type: none;
   gap: 10px;
 }
+
+@media (max-width: 768px) {
+  ul {
+    flex-direction: column;
+  }
+}
 li {
   padding: 0.5rem;
   text-align: center;
@@ -351,6 +357,12 @@ li {
   max-width: 1000px;
   margin: auto;
   border-left: 1px solid #c2c2c2;
+}
+
+@media (max-width: 768px) {
+  .projectPage{
+        background: linear-gradient(rgb(15, 15, 15), rgba(10, 10, 10, 1));
+  }
 }
 
 .projectPage h1 {
@@ -536,16 +548,6 @@ li {
   width: 100%;
   overflow-x: auto;
   white-space: nowrap;
-}
-
-.phoneText {
-  display: none;
-}
-
-@media (max-width: 768px) {
-  .phoneText {
-    display: block;
-  }
 }
 
 .art-grid {

@@ -30,7 +30,7 @@ function Project2() { // OBS: double check the class in css. make top a grid
       <h2>Project Description</h2>
       <span>Sustainable Development of Investment App UI</span>
       <p className="desc">
-        <p><PersonIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/><strong>My role: Lead Figma designer/prototyper</strong></p>
+        <p><PersonIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/><strong>My role: Lead Figma designer</strong></p>
         In the course of IN3010: Transformative Design with a focus on social 
         sustainability, I, along with 3 other designers, partnered with the core team of AtomIQ; a start-up developing novel 
         blockchain technology in the financial sector. Our task was to design the interaction layer for their upcoming investment app.
@@ -74,12 +74,12 @@ function Project2() { // OBS: double check the class in css. make top a grid
           We collaborated closely with the core AtomIQ team through weekly meetings and numerous design workshops, where we 
           mapped out stakeholders, user needs, trends, and values, along with their visions for the application. Thus, we generated 
           a gigamap that outlined the ecosystem of the app and guided our design direction. 
-          Key objectives in the brainstorming phase included the following: 
+          Key objectives in the brainstorming phase included the following: </p>
           <ul>
             <li>Making crypto trading apps more comprehensible</li>
             <li>Educate and inform new investors on concepts and terminology</li>
             <li>Support financial decision-making through transparency, not pressure</li>
-          </ul></p>
+          </ul>
 
         <h2>Project Outcomes</h2>
         <span>Simple UI combined with novel technology.</span>

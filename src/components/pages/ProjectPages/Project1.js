@@ -53,13 +53,13 @@ function Project1() { // OBS: double check the class in css
 
         <p className="desc">
         <br /> With these goals in mind, I began brainstorming on a set of specifications that I deemed 
-        important for establishing the price of an art piece: 
+        important for establishing the price of an art piece: </p>
         <ul>
           <li>The number of characters <br />(1≤)</li>
           <li>The complexity of the background <br />(simple – medium – detailed)</li>
           <li>The rendering style < br/>(sketch – flat colors – full rendering)</li>
         </ul>
-        Then, prototyping the wireframe of this application consisted of a simple and lightweight layout that takes 
+        <p className="desc">Then, prototyping the wireframe of this application consisted of a simple and lightweight layout that takes 
         in these specifications, and instantly generates an estimated value of the piece based on 
         a predetermined pricing framework.
         </p>
@@ -95,7 +95,6 @@ function Project1() { // OBS: double check the class in css
           <img src={require("../../../assets/art3.jpg")} alt="art3" />
         </div>
         </div>
-        <p className="phoneText">tap for color!</p>
     </section>
   );
 }

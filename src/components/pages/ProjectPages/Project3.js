@@ -82,13 +82,12 @@ function Project3() { // OBS: double check the class in css
           When discussing user involvement, our team met our first roadblock. The designers, including myself, were adamantly pushing
           for strong user involvement from the start; but the developers were skeptical. However, after sharing the results, 
           the entirety of our team agreed about the undeniable value in the collected data. Our user involvement consisted of the 
-          following, where the insights of these sessions gave us information we took further in the app's development:
+          following, where the insights of these sessions gave us information we took further in the app's development:</p>
           <ul>
           <li>Introductory survey: <br />80+ participants shaped our MVP and functional requirements</li>
           <li>2 in-depth interviews: <br /> refined our priorities and clarified pain points</li>
           <li>Usability testing: <br /> final validation of the high-fidelity prototype before tweaks and submission</li>
         </ul>
-        </p>
 
         <h2>Project Outcomes</h2>
         <span>A user-centered biking app to promote sustainable transportation.</span>
