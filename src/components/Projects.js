@@ -37,8 +37,9 @@ function Projects() { /* focus on UX/UI for project2, focus on process, teamwork
           </p>
         </Link>
       </div>
-      
+          <div className="spacer" />
     </section>
+
 
     <section id="master" className="projects">
       <h2>Master's Project and Research</h2>
