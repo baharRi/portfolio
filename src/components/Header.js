@@ -26,7 +26,7 @@ const isActive = (path) => location.pathname === path;
       <nav className= {`navlinks ${isOpen ? "open" : ""}`}>
         <Link to="/" className={isActive("/") ? "active" : ""} onClick={() => setClose()}>Home</Link>
         
-        <Link to="/about" className={isActive("/about") ? "active" : ""} onClick={() => setClose()}>About</Link>
+        <Link to="/about" className={isActive("/about") ? "active" : ""} onClick={() => setClose()}>About Me</Link>
         <Link to="/contact" className={isActive("/contact") ? "active" : ""} onClick={() => setClose()}>Contact</Link>
       </nav>
     </header>

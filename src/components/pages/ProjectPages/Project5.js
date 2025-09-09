@@ -25,25 +25,36 @@ function Project5() { // OBS: double check the class in css
 
         <p className="desc">In January of 2025, I attended an educational experience 
           hosted by PwC, bringing together design students from various universities 
-          to collaborate with the professionals of their design team with a real case for one of 
-          their clients Ruter AS. Through this experience I gained insight into a professional 
-          design process under real circumstances, and learned first-hand from professionals in the field.</p>
-
-        <p className="desc">An overarching goal of contribution for this research is to 
-          maintain social sustainability through democracy and enabled through their right of 
-          proper information to the users of social media platforms.</p>
-
-        <p className="desc">I gathered invaluable insight into value creation and usability, prototyping, 
-          speculating in service design from professionals at the forefront of service design development.</p>
+          to collaborate with the professionals of their design team with a real case for their clients Ruter AS. 
+          Through this experience I gained insight into a professional 
+          design process under real circumstances, and learned first-hand from service design professionals.</p>
 
         <h2>The Problem</h2>
-        <span>write something quick and summarized here.</span>
+        <span>700 000 vehicles in Oslo alone: private motoring threatens sustainability</span>
+
+        <p className="desc">Private motoring is an increasingly attractive mode of transportation in modern times, and 
+          city infrastructure reflects this. Ruter AS mentions how 40% of Oslo goes to parking and vehicle space for the over 700 000 
+          vehicles in the city. They come to PwC with a goal: identifying trends and signals to help streamline a novel service design
+          for establishing their role to play in increasing sustainable transportation options and decreasing the reliance on private 
+          motoring in Oslo.</p>
+
+        <h2>Project Case</h2>
+        <div className="projectSpecial">
+          <p>To support Oslo's biggest transportation company in rethinking mobility solutions through speculative, 
+            user-centered design methods.</p>
+            <div className="spacer" />
+            <p>Ideating sustainable transportation alternatives more attractive than personal cars.</p>
+        </div>
 
         <h2>Project Outcomes</h2>
-        <span>write something quick and summarized here.</span>
+        <span>Speculating futures and competitors to drive inspiration and sustainable development.</span>
 
-        <p className="desc">I gathered invaluable insight into value creation and usability, prototyping, 
-          speculating in service design from professionals at the forefront of service design development.</p>
+        <p className="desc">Resulting from the work in this intensive program, my group speculated a possible contendor for
+          the client in a near future with an attractive business model service design, fulfilling the same goals for the user base.< br />
+          <br /> Throughout this project, I gathered invaluable insight into value creation and usability, prototyping, and 
+          speculating in service design from professionals at the forefront of service design development in PwC.
+          Additionally, I grew more confident working in fast-paced, professional design environments, adapting 
+          quickly while learning directly from experienced practitioners in the field.</p>
 
     </section>
   );
