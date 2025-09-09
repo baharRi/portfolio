@@ -23,23 +23,23 @@ function Project2() { // OBS: double check the class in css. make top a grid
       <TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>Methodology: Transformative Design <br/>
       <TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>Methods: future scenarios, experimental design, Tarot Cards of Tech <br/>
       <TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>Grew highly comfortable using Figma <br/>
-      <TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>Cooperating with an established start-up team</p>
+      <TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>Collaborated closely with an established start-up team</p>
 
       <div className="spacer"></div>
 
       <h2>Project Description</h2>
       <span>Sustainable Development of Investment App UI</span>
       <p className="desc">
-        <p><PersonIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/><strong>My role: Head of Figma prototyping</strong></p>
-        In the class of IN3010: Transformative Design, with a focus on social 
-        sustainability, my design team partnered with the established core team from AtomIQ to create 
-        the interaction design layer of their upcoming investment app. Contributing 
-        with our creativity as design students, we developed a novel interface layout to compliment their novel technology. Attempting 
-        to ease the intimidation of existing crypto currency investment apps, we displayed the 
-        investment companies in the form of cards on a dashboard for the user. This followed our 
-        design model of dividing the often overwhelming experience of crypto investment into smaller 
-        “bite-sized” chunks of informative content, contributing to democratizing the financial 
-        sector through education and empowerment.</p>
+        <p><PersonIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/><strong>My role: Lead Figma designer/prototyper</strong></p>
+        In the course of IN3010: Transformative Design with a focus on social 
+        sustainability, I, along with 3 other designers, partnered with the core team of AtomIQ; a start-up developing novel 
+        blockchain technology in the financial sector. Our task was to design the interaction layer for their upcoming investment app.
+
+        Crypto trading platforms are notoriously overwhelming for beginners; something we encountered ourselves during data collection. 
+        Thus, we developed a novel interface layout to compliment their novel technology. My team and I designed a card-based dashboard 
+        that breaks the experience into smaller, digestible chunks of information, countering the often overwhelming and complex layouts 
+        of existing competitors. Through this, our goal was to emphasize education and empowerment in personal investment activities, 
+        subsequently contributing to democratize the financial sector.</p>
 
         <h2>The Problem</h2>
         <span>Steep learning curves and intimidating layouts make crypto trading too complex for first-time investors.</span>
@@ -47,15 +47,10 @@ function Project2() { // OBS: double check the class in css. make top a grid
         <img src={require("../../../assets/project2/atomiqPlanning.png")} alt="project 2 banner" className="projectImg"/>
 
         <p className="desc">
-          The team of AtomIQ currently do not have designs for their upcoming mobile and desktop platforms.
-          Start-up tech companies get little funding for big projects that could potentially lead to revolutionary 
-          technology for both social and nature sustainability.
-          Several popular crypto trading apps today use a form of cryptomining that is considered detrimental for 
-          the environment.
-          Based on our findings after qualitative research: Crypto trading apps today are often considered confusing, 
-          overwhelming, and even scary.
-          
-        <span>The scope of our project was to design the interaction layer of the AtomIQ mobile app exclusively.</span></p>
+          We found after qualitative data collection (5 in-depth interviews) that existing crypto trading apps today are often considered confusing, 
+          overwhelming, and even scary for first-time investors. Additionally, start-ups with promising, sustainable technology often lack funding 
+          for strong UX/UI design. The goal of AtomIQ's novel technology is to rely on less environmentally damaging datamining
+          practices; and our interface design aims to preface this through a simple, welcoming, and educational user experience.</p>
 
         <h2>Project Case</h2>
         <div className="projectSpecial">
@@ -64,8 +59,8 @@ function Project2() { // OBS: double check the class in css. make top a grid
 
             <div className="spacer"></div>
             
-            <p>❝To democratize and make investment available to everyone and inform about, simplify and 
-              reduce risk as well as promote sustainable investment solutions rather than financial ones.❞</p>
+            <p>❝To make investment available to everyone; informing, simplifying, and 
+              reducing risk with sustainable investment solutions.❞</p>
         </div>
 
         <div className="noLineSpacer"></div>
@@ -75,29 +70,33 @@ function Project2() { // OBS: double check the class in css. make top a grid
 
         <img src={require("../../../assets/project2/atomiqCoordination.png")} alt="project 2 gigamap from meetings" className="projectImg"/>
 
-        <p className="desc">Our design team sat in on numerous meetings with the core team of AtomIQ to 
-          discuss their visions for the project. Additionally, we had multiple workshops with the team in order to map 
-          issues such as stakeholders, trends, and values for the application. This resulted in the collaborative generation
-          of a <strong>gigamap</strong> as presented over (blurred for non-disclosure). <br/>
-        The goals and objectives: Find ways to make the interface of a crypto trading app more comprehensible and welcoming. 
-          Find ways to educate and inform new users about typical trading terminology. 
-         Find ways to make the process of investing easier for new users. 
-         Do NOT push the user to make investment decisions; only educate and inform.</p>
+        <p className="desc">
+          We collaborated closely with the core AtomIQ team through weekly meetings and numerous design workshops, where we 
+          mapped out stakeholders, user needs, trends, and values, along with their visions for the application. Thus, we generated 
+          a gigamap that outlined the ecosystem of the app and guided our design direction. 
+          Key objectives in the brainstorming phase included the following: 
+          <ul>
+            <li>Making crypto trading apps more comprehensible</li>
+            <li>Educate and inform new investors on concepts and terminology</li>
+            <li>Support financial decision-making through transparency, not pressure</li>
+          </ul></p>
 
         <h2>Project Outcomes</h2>
         <span>Simple UI combined with novel technology.</span>
 
         <img src={require("../../../assets/project2/atomiqWireframe.png")} alt="project 2 UI wireframe" className="projectImg"/>
 
-        <p className="desc">The goals in the long-run are for this interface solution to make the process of investing less 
-          intimidating, to encourage financial democracy and equality within society. We hope to give more 
-          people who perhaps did not start off with knowledge in the field, a way to explore the topic of 
-          crypto investment and make their own decisions after gaining more knowledge. Following this, 
-          start-up tech companies may find more investment opportunities, and it can lead to a future with 
-          more opportunities for technology advancement.</p>
+        <p className="desc">
+          The resulting design breaks down the heavy content in crypto investment into more comprehensible chunks,
+          combining AtomIQ's innovative technology with an accessible and approachable interface. This solution reduces the 
+          cognitive load for new investors, while supporting their personal financial decisions. In the long-run, we hope to 
+          open up opportunities for more people to explore personal investment in the financial market. Following this, 
+          start-up tech companies may find more funding, and it can lead to a future with 
+          more opportunities for sustainable technological advancement.</p>
 
         <div className="projectSpecial">
-          <p>❝We successfully created the best app ever.❞</p>
+          <p>❝Rethinking the crypto trading experience and designing an interface accessible to first-time users: 
+            opening up new, sustainable opportunities for potential investors.❞</p>
         </div>
     </section>
   );

@@ -21,6 +21,8 @@ function Project5() { // OBS: double check the class in css
       <TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>Direct collaboration with professionals<br/>
       <TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>Working in a fast-paced sprint</p>
 
+      <div className="spacer" />
+
         <p className="desc">In January of 2025, I attended an educational experience 
           hosted by PwC, bringing together design students from various universities 
           to collaborate with the professionals of their design team with a real case for one of 

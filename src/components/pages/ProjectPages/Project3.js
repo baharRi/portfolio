@@ -8,7 +8,7 @@ function Project3() { // OBS: double check the class in css
   return (
     <section className="projectPage">
 
-      <h1>Svoosh: Turning urban cycling into a first-choice commute</h1>
+      <h1>Svoosh: Turning city cycling into a first-choice transport</h1>
       <section className="projectInfoGrid">
         <p><AccessTimeFilledIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }} /><br />intensive 3 months</p>
         <p><GroupsIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/><br />interdisciplinary team</p>
@@ -17,9 +17,9 @@ function Project3() { // OBS: double check the class in css
       <img src={require("../../../assets/project3/svooshBanner.png")} alt="project 3 banner" className="projectBanner"/>
       
       <h2>Gained Experience</h2>
-      <p><TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>Agile software development, Scrumban<br/>
+      <p><TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>Agile software development (Scrumban)<br/>
       <TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>Completely independent, interdisciplinary teamwork<br/>
-      <TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>GitHub, Figma, Jira<br/>
+      <TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>Tools: GitHub, Figma, Jira<br/>
       <TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>Programming: Kotlin, XML</p>
 
       <div className="spacer"></div>
@@ -27,24 +27,25 @@ function Project3() { // OBS: double check the class in css
       <h2>Project Description</h2>
       <span>Svoosh: A complete Android application</span>
       <p className="desc">
-        <p><PersonIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/><strong>My roles: Head of design, Head of user involvement</strong></p>
-        In the class of IN2000: Software Engineering, I worked in an interdisciplinary 
-        team with other informatics students (developers + designers) to create an application made to guide 
-        the people of Oslo on their bicycling journeys throughout the city. The app uses weather APIs from the 
-        Norwegian Meteorological Institute and was created through an agile software development process. <br/>
-        After the Covid-19 pandemic, more and more people are using cycling as a mode of transportation in Oslo 
-        to avoid public transport. The market for systems aiding the activity is growing significantly. Through 
-        the application, we hope to encourage the local people of Oslo to continue to choose sustainable options 
-        for public transportation.</p>
+        <p><PersonIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/><strong>My roles: Lead designer and Head of user involvement</strong></p>
+        In the course of IN2000: Software Engineering, I worked in an interdisciplinary 
+        team of six (3 developers + 3 designers) to create an application made to guide 
+        the people of Oslo on their bicycling journeys throughout the city. The app integrates live weather and air quality data from the 
+        Norwegian Meteorological Institute as well as a map with live traffic updates from Google. This project was conducted following
+        an agile software development approach – specifically the hybrid approach of Scrumban – which was tracked through Jira. <br/>
+        <br />After the Covid-19 pandemic, a surge of people are using bicycling as an alternative to transportation in Oslo 
+        to avoid crowded public transport. However, the activity has unpredictable aspects such as heavy traffic and weather conditions
+        that opens the market for systems aiding the process. Our application hopes to further encourage the local people 
+        of Oslo to continue to choose sustainable options for public transportation by easing these challenges.</p>
 
         <h2>The Problem</h2>
         <span>Over 70% of Oslo bikers mention moderate to high traffic in their routes, impacting the experience.</span>
 
         <p className="desc">An application for easy access to bicycling paths in Oslo is growing increasingly 
-          necessary as more people are engaging in the activity. <br /> 
-          Cycling roads are hard to keep track of and few and far between, and often times bikers end up having to 
-          cycle on the road, next to dangerous traffic. <br />
-          Cycling in poor weather conditions and high traffic areas can worsen the experience and demotivate cyclists 
+          necessary as more people are engaging in the activity. 
+          Additionally, cycling roads in the city are hard to keep track of and few and far between, and often times, bikers end up having to 
+          cycle on the road next to dangerous traffic. Lastly, 
+          cycling in poor weather conditions and high traffic areas can worsen the experience and demotivate cyclists 
           from engaging in the activity.</p>
 
         <h2>Project Case</h2>
@@ -54,41 +55,57 @@ function Project3() { // OBS: double check the class in css
 
         <div className="spacer"></div>
         
-            <p>❝Establish a system that raises and maintains commitment and motivation around bicycling as a sustainable 
-              mode of transportation; this is important both for the safety of the population and in a larger perspective 
-              - for the global society.❞</p>
+            <p>❝Encourage commitment to sustainable transportation alternatives — improving safety and health locally while supporting 
+              broader global sustainability goals.❞</p>
         </div>
 
         <div className="noLineSpacer"></div>
 
-        <h2>Independently Collaborating with Other Disciplines</h2>
-        <span>Getting comfortable and establishing teamwork.</span>
+        <h2>Teamwork and Agile Development process</h2>
+        <span>Getting comfortable and establishing a routine.</span>
 
         <img src={require("../../../assets/project3/svooshDiagram.png")} alt="project 3 team responsibilities" className="projectImg"/>
 
-        <p className="desc">Talk about meetings.</p>
-        <p className="desc">The goals and objectives... Something about user involvement. 
-          Focus on the local environment and surroundings and be future-oriented. Give the user the option to add 
-          locations to their favorites, for easy access and usability. Recommend relevant biking paths for the user, 
-          depending on weather and air quality, to motivate and encourage using bicycling as a mode of transportation. 
-          Display the weather and air quality in the area to help the user plan their bicylcing days and routes.</p>
+        <p className="desc">Our team adopted agile practices with weekly stand-ups and retrospective meetings every 3 weeks, with a rotating 
+          scrum master each week. 
+          In our task delegation, we split the team into various sub-teams to focus on front-end, back-end, and data collection. 
+          As the lead designer, I was responsibly for Figma prototyping along with the other designers, as well as implementing 
+          these desings in the app's XML. Within the design process, I collaborated closely across other team roles while keeping 
+          users at the center of decision-making; following my additional responsibility of user involvement.</p>
 
         <h2>User Involvement</h2>
-        <span>Surveys, interviews, and testing with user group.</span>
+        <span>Collaborating with the user group throughout all phases.</span>
 
         <img src={require("../../../assets/project3/svooshUsers.png")} alt="project 3 data from user involvement" className="projectImg"/>
-
+        
+        <p className="desc">
+          When discussing user involvement, our team met our first roadblock. The designers, including myself, were adamantly pushing
+          for strong user involvement from the start; but the developers were skeptical. However, after sharing the results, 
+          the entirety of our team agreed about the undeniable value in the collected data. Our user involvement consisted of the 
+          following, where the insights of these sessions gave us information we took further in the app's development:
+          <ul>
+          <li>Introductory survey: <br />80+ participants shaped our MVP and functional requirements</li>
+          <li>2 in-depth interviews: <br /> refined our priorities and clarified pain points</li>
+          <li>Usability testing: <br /> final validation of the high-fidelity prototype before tweaks and submission</li>
+        </ul>
+        </p>
 
         <h2>Project Outcomes</h2>
-        <span>Developed app with the users in focus.</span>
+        <span>A user-centered biking app to promote sustainable transportation.</span>
 
         <img src={require("../../../assets/project3/svooshFinal.png")} alt="project 3 final UI" className="projectImg"/>
 
-        <p className="desc">These objectives are only within the scope of the project timeline. The goal in 
-          the long-run is for this application to encourage and help the people of Oslo choose bicycling as a 
-          preferred mode of transportation to make Oslo a more sustainable city. We aim to give more planning 
-          opportunities for the people interested in bicycling in Oslo, to make it into a more enjoyable experience, 
-          and continue to motivate bicycling as a healthy personal habit.</p>
+        <p className="desc">The finished app recommends biking paths tailored to weather and air quality, while also allowing 
+          users to save favorite routes for easy access; something that came up through our user involvement. It creates safer, 
+          more enjoyable cycling experiences and motivates people to stick with biking as a healthy, sustainable habit.
+          In the long run, this solution can help reduce car dependency in Oslo as well as crowded public transportation options, and 
+          support the city's vision of maintaining their title as a green capital.<br />
+
+          <br />This project was one of my most rewarding teamwork experiences, and one of my favorite endeavors throughout my degree. 
+          It taught me how to delegate tasks efficiently and lead with user involvement as a core principle in my future projects. 
+          Additionally, working so independently with developers gave me valuable insight into bridging design and development, and 
+          I left this course feeling content with the work we had done together as a team.
+          </p>
 
         <div className="projectSpecial">
           <p>❝Encourages sustainable transportation by helping cyclists plan safer, faster routes; reducing reliance on 

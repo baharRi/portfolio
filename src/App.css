@@ -262,11 +262,18 @@ a {
 }
 
 ul {
-  padding: 0 2rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  gap: 10px;
 }
 li {
   padding: 0.5rem;
-  text-align: left;
+  text-align: center;
+  border: #888 1px dashed;
+  border-radius: 10px;
+  background: rgba(207, 207, 207, 0.1);
 }
 
 .projects h2 {

@@ -5,10 +5,10 @@ function Project4() { // OBS: double check the class in css
   return (
     <div>
     <section className="projectPage">
-      <h1>Master's thesis: Mitigating False Information on Social Media</h1>
+      <h1>Master's thesis: Designing Against False Information on Social Media</h1>
 
       <div className="projectSpecial">
-        <p>❝<strong>Title:</strong> Understanding the Role of Technology and Community Interactions in the Lived 
+        <p>❝<strong>Thesis title:</strong> Understanding the Role of Technology and Community Interactions in the Lived 
           Experience of Online False Information❞</p>
       </div>
 
@@ -32,11 +32,16 @@ function Project4() { // OBS: double check the class in css
 
       <h2>Project Outcomes</h2>
       <p className="desc">Interactions is essential in understanding how to support media 
-      literacy and encouraging technological democratization with a focus on people’s lived 
+      literacy and encouraging technological democratization with a focus on people's lived 
       experiences underlining their right to rightful information. For handling this issue, 
       discerning design implications with a focus on promoting media literacy provides a step 
       towards this democratization, attempting to mitigate the harmful effects of false information.<br />
-      A shorter article detailing the work of this thesis is underway.</p>
+      A published article detailing the work of this thesis is underway, and will be available to read on this page.
+      <ul>
+        <li>Design for experiences: make them salient</li>
+        <li>Facilitate sense-making processes online</li>
+        <li>Integrate spatial separation and situational awareness</li>
+      </ul></p>
 </section>
 
 <section className="projects">
