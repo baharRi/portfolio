@@ -91,7 +91,7 @@ function About() { //make css class for intro, skillsEtc for skills. add button 
         
     </section>
     <section className="aboutIntro"> 
-      <a href={`${process.env.PUBLIC_URL}/Bahar-CV.pdf`} download="Bahar-CV"><button id="resume" type="button">Download my resume <DownloadIcon fontSize="small" style={{ verticalAlign: 'middle', marginLeft: 8 }} /></button></a>
+      <a href={`${process.env.PUBLIC_URL}/BaharCV.pdf`} download="BaharCV"><button id="resume" type="button">Download my resume <DownloadIcon fontSize="small" style={{ verticalAlign: 'middle', marginLeft: 8 }} /></button></a>
     </section>
     </>
   );
