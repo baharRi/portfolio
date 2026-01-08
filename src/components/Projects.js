@@ -8,7 +8,7 @@ function Projects() { /* focus on UX/UI for project2, focus on process, teamwork
     <>
     <section id="projects" className="projects">
       <h2>Featured Projects</h2>
-      <div className="project-grid">
+      <div className="projectGrid">
         <Link to="/project/1" className="project" style={{ textDecoration: 'none' }}>
           <h3>Commission Price Calculator</h3>
           <p>
@@ -28,7 +28,7 @@ function Projects() { /* focus on UX/UI for project2, focus on process, teamwork
         </Link>
       </div>
 
-      <div className="project-grid">
+      <div className="projectGrid">
         <Link to="/project/5" className="project" style={{ textDecoration: 'none' }}>
           <h3>PwC Design Explore</h3>
           <p>
@@ -43,7 +43,7 @@ function Projects() { /* focus on UX/UI for project2, focus on process, teamwork
 
     <section id="master" className="projects">
       <h2>Master's Project and Research</h2>
-      <div className="project-grid">
+      <div className="projectGrid">
         <Link to="/project/4" className="project" style={{ textDecoration: 'none' }}>
           <h3>Designing Against False Information on Social Media</h3>
           <p>
