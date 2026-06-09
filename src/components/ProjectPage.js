@@ -4,6 +4,7 @@ import Project2 from "./pages/ProjectPages/Project2";
 import Project3 from "./pages/ProjectPages/Project3";
 import Project4 from "./pages/ProjectPages/Project4";
 import Project5 from "./pages/ProjectPages/Project5";
+import Project6 from "./pages/ProjectPages/Project6";
 
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
@@ -51,6 +52,10 @@ const handleNavClick = (e, targetId = null) => {
     5: {
       title: "PwC: Design Explore",
       details: <Project5/>
+    },
+    6: {
+      title: "flow.: Habit tracker",
+      details: <Project6/>
     }
   };
 

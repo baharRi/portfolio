@@ -50,6 +50,15 @@ function Projects() { /* focus on UX/UI for project2, focus on process, teamwork
             <FaMobileAlt title="Mobile development" className="icon" />
             </div>
         </Link>
+        <Link to="/project/6" className="project" style={{ textDecoration: 'none' }}>
+          <h3>flow.: Habit tracker</h3>
+          <p>Habit tracker prototype designed in Figma inspired by the work of artist and media designer Refik Anadol.</p>
+            <div className="noLineSpacer" />
+            <div className="iconGroup">
+            <FiPenTool  title="Design prototyping" className="icon" />
+            <FaMobileAlt title="Mobile development" className="icon" />
+            </div>
+        </Link>
       </div>
 
       <div className="projectGrid">
