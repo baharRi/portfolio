@@ -352,6 +352,20 @@ li {
   margin: 2rem 0;
 }
 
+.iconGroup {
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center;
+  gap: 10px; 
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  display: block;
+}
+
 .projectPage {
   padding: 4rem 2rem;
   max-width: 1000px;

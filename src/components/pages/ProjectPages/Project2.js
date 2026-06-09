@@ -3,6 +3,8 @@ import PersonIcon from '@mui/icons-material/Person';
 import TrendingUpIcon from '@mui/icons-material/TrendingUp';
 import AccessTimeFilledIcon from '@mui/icons-material/AccessTimeFilled';
 import GroupsIcon from '@mui/icons-material/Groups';
+import { FaMobileAlt   } from "react-icons/fa";
+import { FiPenTool, FiUsers   } from "react-icons/fi";
 
 function Project2() { // OBS: double check the class in css. make top a grid
   return (
@@ -25,6 +27,11 @@ function Project2() { // OBS: double check the class in css. make top a grid
       <TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>Grew highly comfortable using Figma <br/>
       <TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>Collaborated closely with an established start-up team</p>
 
+          <div className="iconGroup">
+            <FiUsers title="UX research" className="icon" />
+            <FiPenTool  title="Design prototyping" className="icon" />
+            <FaMobileAlt title="Mobile development" className="icon" />
+          </div>
       <div className="spacer"></div>
 
       <h2>Project Description</h2>

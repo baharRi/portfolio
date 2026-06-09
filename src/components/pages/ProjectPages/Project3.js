@@ -3,6 +3,9 @@ import TrendingUpIcon from '@mui/icons-material/TrendingUp';
 import AccessTimeFilledIcon from '@mui/icons-material/AccessTimeFilled';
 import GroupsIcon from '@mui/icons-material/Groups';
 import PersonIcon from '@mui/icons-material/Person';
+import { FaCode, FaMobileAlt   } from "react-icons/fa";
+import { FiPenTool, FiUsers   } from "react-icons/fi";
+import { MdWeb } from "react-icons/md";
 
 function Project3() { // OBS: double check the class in css
   return (
@@ -21,6 +24,14 @@ function Project3() { // OBS: double check the class in css
       <TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>Completely independent, interdisciplinary teamwork<br/>
       <TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>Tools: GitHub, Figma, Jira<br/>
       <TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>Programming: Kotlin, XML</p>
+
+      <div className="iconGroup">
+        <FiUsers title="UX research" className="icon" />
+        <FiPenTool  title="Design prototyping" className="icon" />
+        <FaCode title="Frontend development" className="icon" />
+        <MdWeb title="Backend development" className="icon" />
+        <FaMobileAlt title="Mobile development" className="icon" />
+      </div>
 
       <div className="spacer"></div>
 

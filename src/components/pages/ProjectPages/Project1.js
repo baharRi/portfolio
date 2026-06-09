@@ -2,6 +2,9 @@ import React from "react";
 import TrendingUpIcon from '@mui/icons-material/TrendingUp';
 import AccessTimeFilledIcon from '@mui/icons-material/AccessTimeFilled';
 import GroupsIcon from '@mui/icons-material/Groups';
+import { FaCode   } from "react-icons/fa";
+import { FiPenTool   } from "react-icons/fi";
+import { MdWeb } from "react-icons/md";
 
 function Project1() { // OBS: double check the class in css
   return (
@@ -15,11 +18,14 @@ function Project1() { // OBS: double check the class in css
       <img src={require("../../../assets/project1/calcBanner.png")} alt="project 1 banner" className="projectBanner"/>
       
       <h2>Gained Experience</h2>
-      
-      
-          
       <p><TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>Grew more confident using Git, ReactJS, and Electron<br/>
       <TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>Solved real problems through practical design</p>
+
+       <div className="iconGroup">
+                   <FiPenTool title="Design prototyping" className="icon" />
+                   <FaCode title="Frontend development" className="icon" />
+                   <MdWeb title="Backend development" className="icon" />
+                 </div>
 
       <div className="spacer" />
 

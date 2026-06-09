@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import GitHubIcon from '@mui/icons-material/GitHub';
+import { FaCode, FaMobileAlt   } from "react-icons/fa";
+import { FiPenTool, FiUsers   } from "react-icons/fi";
+import { MdWeb } from "react-icons/md";
 
 function Projects() { /* focus on UX/UI for project2, focus on process, teamwork, and results for project3 */
 
@@ -15,16 +18,37 @@ function Projects() { /* focus on UX/UI for project2, focus on process, teamwork
             A personal project: designed & built a calculator to simplify art
             commission pricing.
           </p>
+          <div className="noLineSpacer" />   
+          <div className="iconGroup">
+            <FiPenTool title="Design prototyping" className="icon" />
+            <FaCode title="Frontend development" className="icon" />
+            <MdWeb title="Backend development" className="icon" />
+          </div>
+          
         </Link>
         <Link to="/project/2" className="project" style={{ textDecoration: 'none' }}>
           <h3>AtomIQ: Investment App UI</h3>
           <p>Developing the interaction design for upcoming investment app, a 
             real case for the client AtomIQ.</p>
+            <div className="noLineSpacer" />
+            <div className="iconGroup">
+            <FiUsers title="UX research" className="icon" />
+            <FiPenTool  title="Design prototyping" className="icon" />
+            <FaMobileAlt title="Mobile development" className="icon" />
+          </div>
         </Link>
         <Link to="/project/3" className="project" style={{ textDecoration: 'none' }}>
           <h3>Svoosh: Complete Android App</h3>
           <p>Independent and interdisciplinary work among students, developing an 
             application from scratch.</p>
+            <div className="noLineSpacer" />
+            <div className="iconGroup">
+              <FiUsers title="UX research" className="icon" />
+            <FiPenTool  title="Design prototyping" className="icon" />
+            <FaCode title="Frontend development" className="icon" />
+            <MdWeb title="Backend development" className="icon" />
+            <FaMobileAlt title="Mobile development" className="icon" />
+            </div>
         </Link>
       </div>
 
