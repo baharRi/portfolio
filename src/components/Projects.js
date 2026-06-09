@@ -23,7 +23,6 @@ function Projects() { /* focus on UX/UI for project2, focus on process, teamwork
             <FiPenTool title="Design prototyping" className="icon" />
             <FaCode title="Frontend development" className="icon" />
             <MdWeb title="Backend development" className="icon" />
-            <FiPenTool size={50} color="red" />
           </div>
           
         </Link>
