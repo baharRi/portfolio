@@ -59,6 +59,11 @@ function Projects() { /* focus on UX/UI for project2, focus on process, teamwork
             A design workshop at PwC, focusing on speculative design to solve a real case 
             for the client Ruter AS. 
           </p>
+          <div className="noLineSpacer" />
+          <div className="iconGroup">
+            <FiPenTool title="Design prototyping" className="icon" />
+            <FaMobileAlt title="Mobile development" className="icon" />
+          </div>
         </Link>
       </div>
           <div className="spacer" />
