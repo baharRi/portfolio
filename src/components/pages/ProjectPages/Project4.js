@@ -53,11 +53,11 @@ function Project4() { // OBS: double check the class in css
         <li>Facilitate sense-making processes online</li>
         <li>Integrate spatial separation and situational awareness</li>
       </ul>
-      <p className="desc">A published article detailing the work of this thesis is underway, and will be available to read on this page.</p>
+      <p className="desc">I have published an article in the journal of Computer-Supported Cooperative Work (CSCW) detailing the work of this thesis, which is available online on the link below.</p>
 </section>
 
 <section className="projects">
-<a href="https://recruitfacts.wordpress.com" target="_blank" rel="noreferrer noopener"><button id="wordpress" type="button">Project information website<LaunchIcon style={{ verticalAlign: 'middle', marginLeft: 8 }}/></button></a>
+<a href="https://link.springer.com/article/10.1007/s10606-026-09541-9" target="_blank" rel="noreferrer noopener"><button id="wordpress" type="button">View my publication<LaunchIcon style={{ verticalAlign: 'middle', marginLeft: 8 }}/></button></a>
 </section>
 </div>
   ); // clean up bottom button (new class centeredButton?)

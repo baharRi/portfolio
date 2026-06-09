@@ -31,7 +31,7 @@ function Project1() { // OBS: double check the class in css
       </p>
 
         <h2>The Problem</h2>
-        <span>The difficulty of pricing art.</span>
+        <span>The difficulty of pricing your work.</span>
 
         <p className="desc">
         I used to decide the price of each artwork independently, usually based on an hourly rate.
