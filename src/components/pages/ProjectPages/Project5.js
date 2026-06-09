@@ -2,6 +2,8 @@ import React from "react";
 import TrendingUpIcon from '@mui/icons-material/TrendingUp';
 import AccessTimeFilledIcon from '@mui/icons-material/AccessTimeFilled';
 import GroupsIcon from '@mui/icons-material/Groups';
+import { FaMobileAlt   } from "react-icons/fa";
+import { FiPenTool   } from "react-icons/fi";
 
 function Project5() { // OBS: double check the class in css
   return (
@@ -20,6 +22,11 @@ function Project5() { // OBS: double check the class in css
       <TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>Methods: Evidencing, future scenarios<br/>
       <TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>Direct collaboration with professionals<br/>
       <TrendingUpIcon fontSize="small" style={{ verticalAlign: 'middle', marginRight: 8 }}/>Working in a fast-paced sprint</p>
+
+      <div className="iconGroup">
+        <FiPenTool  title="Design prototyping" className="icon" />
+        <FaMobileAlt title="Mobile development" className="icon" />
+      </div>
 
       <div className="spacer" />
 
@@ -48,6 +55,8 @@ function Project5() { // OBS: double check the class in css
 
         <h2>Project Outcomes</h2>
         <span>Speculating futures and competitors to drive inspiration and sustainable development.</span>
+
+        <img src={require("../../../assets/project5/pwc-app.png")} alt="project 5 introduction" className="projectImg"/>
 
         <p className="desc">Resulting from the work in this intensive program, my group speculated a possible contendor for
           the client in a near future with an attractive business model service design, fulfilling the same goals for the user base.< br />
